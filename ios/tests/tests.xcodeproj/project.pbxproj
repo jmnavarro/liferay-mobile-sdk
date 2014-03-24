@@ -1,0 +1,1375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8807A3DD18E09ED60062651A /* BaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017D418E09D1400FF7164 /* BaseTest.m */; };
+		889015BA18E079A100FF7164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889015B918E079A100FF7164 /* Foundation.framework */; };
+		889015BC18E079A100FF7164 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889015BB18E079A100FF7164 /* CoreGraphics.framework */; };
+		889015BE18E079A100FF7164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889015BD18E079A100FF7164 /* UIKit.framework */; };
+		889015D918E079A100FF7164 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889015D818E079A100FF7164 /* XCTest.framework */; };
+		889015DA18E079A100FF7164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889015B918E079A100FF7164 /* Foundation.framework */; };
+		889015DB18E079A100FF7164 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889015BD18E079A100FF7164 /* UIKit.framework */; };
+		889016D218E07A5800FF7164 /* LRAddressService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167218E07A5700FF7164 /* LRAddressService_v62.m */; };
+		889016D318E07A5800FF7164 /* LRAddressService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167218E07A5700FF7164 /* LRAddressService_v62.m */; };
+		889016D418E07A5800FF7164 /* LRAnnouncementsDeliveryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167318E07A5700FF7164 /* LRAnnouncementsDeliveryService_v62.m */; };
+		889016D518E07A5800FF7164 /* LRAnnouncementsDeliveryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167318E07A5700FF7164 /* LRAnnouncementsDeliveryService_v62.m */; };
+		889016D618E07A5800FF7164 /* LRAnnouncementsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167418E07A5700FF7164 /* LRAnnouncementsEntryService_v62.m */; };
+		889016D718E07A5800FF7164 /* LRAnnouncementsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167418E07A5700FF7164 /* LRAnnouncementsEntryService_v62.m */; };
+		889016D818E07A5800FF7164 /* LRAnnouncementsFlagService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167518E07A5700FF7164 /* LRAnnouncementsFlagService_v62.m */; };
+		889016D918E07A5800FF7164 /* LRAnnouncementsFlagService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167518E07A5700FF7164 /* LRAnnouncementsFlagService_v62.m */; };
+		889016DA18E07A5800FF7164 /* LRAssetCategoryPropertyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167618E07A5700FF7164 /* LRAssetCategoryPropertyService_v62.m */; };
+		889016DB18E07A5800FF7164 /* LRAssetCategoryPropertyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167618E07A5700FF7164 /* LRAssetCategoryPropertyService_v62.m */; };
+		889016DC18E07A5800FF7164 /* LRAssetCategoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167718E07A5700FF7164 /* LRAssetCategoryService_v62.m */; };
+		889016DD18E07A5800FF7164 /* LRAssetCategoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167718E07A5700FF7164 /* LRAssetCategoryService_v62.m */; };
+		889016DE18E07A5800FF7164 /* LRAssetEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167818E07A5700FF7164 /* LRAssetEntryService_v62.m */; };
+		889016DF18E07A5800FF7164 /* LRAssetEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167818E07A5700FF7164 /* LRAssetEntryService_v62.m */; };
+		889016E018E07A5800FF7164 /* LRAssetTagPropertyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167918E07A5700FF7164 /* LRAssetTagPropertyService_v62.m */; };
+		889016E118E07A5800FF7164 /* LRAssetTagPropertyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167918E07A5700FF7164 /* LRAssetTagPropertyService_v62.m */; };
+		889016E218E07A5800FF7164 /* LRAssetTagService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167A18E07A5700FF7164 /* LRAssetTagService_v62.m */; };
+		889016E318E07A5800FF7164 /* LRAssetTagService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167A18E07A5700FF7164 /* LRAssetTagService_v62.m */; };
+		889016E418E07A5800FF7164 /* LRAssetVocabularyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167B18E07A5700FF7164 /* LRAssetVocabularyService_v62.m */; };
+		889016E518E07A5800FF7164 /* LRAssetVocabularyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167B18E07A5700FF7164 /* LRAssetVocabularyService_v62.m */; };
+		889016E618E07A5800FF7164 /* LRBackgroundTaskService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167C18E07A5700FF7164 /* LRBackgroundTaskService_v62.m */; };
+		889016E718E07A5800FF7164 /* LRBackgroundTaskService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167C18E07A5700FF7164 /* LRBackgroundTaskService_v62.m */; };
+		889016E818E07A5800FF7164 /* LRBlogsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167D18E07A5700FF7164 /* LRBlogsEntryService_v62.m */; };
+		889016E918E07A5800FF7164 /* LRBlogsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167D18E07A5700FF7164 /* LRBlogsEntryService_v62.m */; };
+		889016EA18E07A5800FF7164 /* LRBookmarksEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167E18E07A5700FF7164 /* LRBookmarksEntryService_v62.m */; };
+		889016EB18E07A5800FF7164 /* LRBookmarksEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167E18E07A5700FF7164 /* LRBookmarksEntryService_v62.m */; };
+		889016EC18E07A5800FF7164 /* LRBookmarksFolderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167F18E07A5700FF7164 /* LRBookmarksFolderService_v62.m */; };
+		889016ED18E07A5800FF7164 /* LRBookmarksFolderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890167F18E07A5700FF7164 /* LRBookmarksFolderService_v62.m */; };
+		889016EE18E07A5800FF7164 /* LRClassNameService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168018E07A5700FF7164 /* LRClassNameService_v62.m */; };
+		889016EF18E07A5800FF7164 /* LRClassNameService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168018E07A5700FF7164 /* LRClassNameService_v62.m */; };
+		889016F018E07A5800FF7164 /* LRCompanyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168118E07A5700FF7164 /* LRCompanyService_v62.m */; };
+		889016F118E07A5800FF7164 /* LRCompanyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168118E07A5700FF7164 /* LRCompanyService_v62.m */; };
+		889016F218E07A5800FF7164 /* LRContactService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168218E07A5700FF7164 /* LRContactService_v62.m */; };
+		889016F318E07A5800FF7164 /* LRContactService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168218E07A5700FF7164 /* LRContactService_v62.m */; };
+		889016F418E07A5800FF7164 /* LRCountryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168318E07A5700FF7164 /* LRCountryService_v62.m */; };
+		889016F518E07A5800FF7164 /* LRCountryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168318E07A5700FF7164 /* LRCountryService_v62.m */; };
+		889016F618E07A5800FF7164 /* LRDDLRecordService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168418E07A5700FF7164 /* LRDDLRecordService_v62.m */; };
+		889016F718E07A5800FF7164 /* LRDDLRecordService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168418E07A5700FF7164 /* LRDDLRecordService_v62.m */; };
+		889016F818E07A5800FF7164 /* LRDDLRecordSetService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168518E07A5700FF7164 /* LRDDLRecordSetService_v62.m */; };
+		889016F918E07A5800FF7164 /* LRDDLRecordSetService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168518E07A5700FF7164 /* LRDDLRecordSetService_v62.m */; };
+		889016FA18E07A5800FF7164 /* LRDDMStructureService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168618E07A5700FF7164 /* LRDDMStructureService_v62.m */; };
+		889016FB18E07A5800FF7164 /* LRDDMStructureService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168618E07A5700FF7164 /* LRDDMStructureService_v62.m */; };
+		889016FC18E07A5800FF7164 /* LRDDMTemplateService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168718E07A5700FF7164 /* LRDDMTemplateService_v62.m */; };
+		889016FD18E07A5800FF7164 /* LRDDMTemplateService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168718E07A5700FF7164 /* LRDDMTemplateService_v62.m */; };
+		889016FE18E07A5800FF7164 /* LRDLAppService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168818E07A5700FF7164 /* LRDLAppService_v62.m */; };
+		889016FF18E07A5800FF7164 /* LRDLAppService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168818E07A5700FF7164 /* LRDLAppService_v62.m */; };
+		8890170018E07A5800FF7164 /* LRDLFileEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168918E07A5700FF7164 /* LRDLFileEntryService_v62.m */; };
+		8890170118E07A5800FF7164 /* LRDLFileEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168918E07A5700FF7164 /* LRDLFileEntryService_v62.m */; };
+		8890170218E07A5800FF7164 /* LRDLFileEntryTypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168A18E07A5700FF7164 /* LRDLFileEntryTypeService_v62.m */; };
+		8890170318E07A5800FF7164 /* LRDLFileEntryTypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168A18E07A5700FF7164 /* LRDLFileEntryTypeService_v62.m */; };
+		8890170418E07A5800FF7164 /* LRDLFileShortcutService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168B18E07A5700FF7164 /* LRDLFileShortcutService_v62.m */; };
+		8890170518E07A5800FF7164 /* LRDLFileShortcutService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168B18E07A5700FF7164 /* LRDLFileShortcutService_v62.m */; };
+		8890170618E07A5800FF7164 /* LRDLFileVersionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168C18E07A5700FF7164 /* LRDLFileVersionService_v62.m */; };
+		8890170718E07A5800FF7164 /* LRDLFileVersionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168C18E07A5700FF7164 /* LRDLFileVersionService_v62.m */; };
+		8890170818E07A5800FF7164 /* LRDLFolderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168D18E07A5700FF7164 /* LRDLFolderService_v62.m */; };
+		8890170918E07A5800FF7164 /* LRDLFolderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168D18E07A5700FF7164 /* LRDLFolderService_v62.m */; };
+		8890170A18E07A5800FF7164 /* LREmailAddressService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168E18E07A5700FF7164 /* LREmailAddressService_v62.m */; };
+		8890170B18E07A5800FF7164 /* LREmailAddressService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168E18E07A5700FF7164 /* LREmailAddressService_v62.m */; };
+		8890170C18E07A5800FF7164 /* LRExpandoColumnService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168F18E07A5700FF7164 /* LRExpandoColumnService_v62.m */; };
+		8890170D18E07A5800FF7164 /* LRExpandoColumnService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890168F18E07A5700FF7164 /* LRExpandoColumnService_v62.m */; };
+		8890170E18E07A5800FF7164 /* LRExpandoValueService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169018E07A5700FF7164 /* LRExpandoValueService_v62.m */; };
+		8890170F18E07A5800FF7164 /* LRExpandoValueService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169018E07A5700FF7164 /* LRExpandoValueService_v62.m */; };
+		8890171018E07A5800FF7164 /* LRFlagsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169118E07A5700FF7164 /* LRFlagsEntryService_v62.m */; };
+		8890171118E07A5800FF7164 /* LRFlagsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169118E07A5700FF7164 /* LRFlagsEntryService_v62.m */; };
+		8890171218E07A5800FF7164 /* LRGroupService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169218E07A5700FF7164 /* LRGroupService_v62.m */; };
+		8890171318E07A5800FF7164 /* LRGroupService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169218E07A5700FF7164 /* LRGroupService_v62.m */; };
+		8890171418E07A5800FF7164 /* LRImageService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169318E07A5700FF7164 /* LRImageService_v62.m */; };
+		8890171518E07A5800FF7164 /* LRImageService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169318E07A5700FF7164 /* LRImageService_v62.m */; };
+		8890171618E07A5800FF7164 /* LRJournalArticleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169418E07A5700FF7164 /* LRJournalArticleService_v62.m */; };
+		8890171718E07A5800FF7164 /* LRJournalArticleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169418E07A5700FF7164 /* LRJournalArticleService_v62.m */; };
+		8890171818E07A5800FF7164 /* LRJournalFeedService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169518E07A5700FF7164 /* LRJournalFeedService_v62.m */; };
+		8890171918E07A5800FF7164 /* LRJournalFeedService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169518E07A5700FF7164 /* LRJournalFeedService_v62.m */; };
+		8890171A18E07A5800FF7164 /* LRJournalFolderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169618E07A5700FF7164 /* LRJournalFolderService_v62.m */; };
+		8890171B18E07A5800FF7164 /* LRJournalFolderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169618E07A5700FF7164 /* LRJournalFolderService_v62.m */; };
+		8890171C18E07A5800FF7164 /* LRJournalStructureService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169718E07A5700FF7164 /* LRJournalStructureService_v62.m */; };
+		8890171D18E07A5800FF7164 /* LRJournalStructureService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169718E07A5700FF7164 /* LRJournalStructureService_v62.m */; };
+		8890171E18E07A5800FF7164 /* LRJournalTemplateService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169818E07A5700FF7164 /* LRJournalTemplateService_v62.m */; };
+		8890171F18E07A5800FF7164 /* LRJournalTemplateService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169818E07A5700FF7164 /* LRJournalTemplateService_v62.m */; };
+		8890172018E07A5800FF7164 /* LRLayoutBranchService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169918E07A5700FF7164 /* LRLayoutBranchService_v62.m */; };
+		8890172118E07A5800FF7164 /* LRLayoutBranchService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169918E07A5700FF7164 /* LRLayoutBranchService_v62.m */; };
+		8890172218E07A5800FF7164 /* LRLayoutPrototypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169A18E07A5700FF7164 /* LRLayoutPrototypeService_v62.m */; };
+		8890172318E07A5800FF7164 /* LRLayoutPrototypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169A18E07A5700FF7164 /* LRLayoutPrototypeService_v62.m */; };
+		8890172418E07A5800FF7164 /* LRLayoutRevisionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169B18E07A5700FF7164 /* LRLayoutRevisionService_v62.m */; };
+		8890172518E07A5800FF7164 /* LRLayoutRevisionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169B18E07A5700FF7164 /* LRLayoutRevisionService_v62.m */; };
+		8890172618E07A5800FF7164 /* LRLayoutService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169C18E07A5700FF7164 /* LRLayoutService_v62.m */; };
+		8890172718E07A5800FF7164 /* LRLayoutService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169C18E07A5700FF7164 /* LRLayoutService_v62.m */; };
+		8890172818E07A5800FF7164 /* LRLayoutSetBranchService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169D18E07A5700FF7164 /* LRLayoutSetBranchService_v62.m */; };
+		8890172918E07A5800FF7164 /* LRLayoutSetBranchService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169D18E07A5700FF7164 /* LRLayoutSetBranchService_v62.m */; };
+		8890172A18E07A5800FF7164 /* LRLayoutSetPrototypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169E18E07A5700FF7164 /* LRLayoutSetPrototypeService_v62.m */; };
+		8890172B18E07A5800FF7164 /* LRLayoutSetPrototypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169E18E07A5700FF7164 /* LRLayoutSetPrototypeService_v62.m */; };
+		8890172C18E07A5800FF7164 /* LRLayoutSetService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169F18E07A5700FF7164 /* LRLayoutSetService_v62.m */; };
+		8890172D18E07A5800FF7164 /* LRLayoutSetService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890169F18E07A5700FF7164 /* LRLayoutSetService_v62.m */; };
+		8890172E18E07A5800FF7164 /* LRListTypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A018E07A5700FF7164 /* LRListTypeService_v62.m */; };
+		8890172F18E07A5800FF7164 /* LRListTypeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A018E07A5700FF7164 /* LRListTypeService_v62.m */; };
+		8890173018E07A5800FF7164 /* LRMBBanService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A118E07A5700FF7164 /* LRMBBanService_v62.m */; };
+		8890173118E07A5800FF7164 /* LRMBBanService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A118E07A5700FF7164 /* LRMBBanService_v62.m */; };
+		8890173218E07A5800FF7164 /* LRMBCategoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A218E07A5700FF7164 /* LRMBCategoryService_v62.m */; };
+		8890173318E07A5800FF7164 /* LRMBCategoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A218E07A5700FF7164 /* LRMBCategoryService_v62.m */; };
+		8890173418E07A5800FF7164 /* LRMBMessageService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A318E07A5700FF7164 /* LRMBMessageService_v62.m */; };
+		8890173518E07A5800FF7164 /* LRMBMessageService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A318E07A5700FF7164 /* LRMBMessageService_v62.m */; };
+		8890173618E07A5800FF7164 /* LRMBThreadService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A418E07A5700FF7164 /* LRMBThreadService_v62.m */; };
+		8890173718E07A5800FF7164 /* LRMBThreadService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A418E07A5700FF7164 /* LRMBThreadService_v62.m */; };
+		8890173818E07A5800FF7164 /* LRMDRActionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A518E07A5700FF7164 /* LRMDRActionService_v62.m */; };
+		8890173918E07A5800FF7164 /* LRMDRActionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A518E07A5700FF7164 /* LRMDRActionService_v62.m */; };
+		8890173A18E07A5800FF7164 /* LRMDRRuleGroupInstanceService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A618E07A5700FF7164 /* LRMDRRuleGroupInstanceService_v62.m */; };
+		8890173B18E07A5800FF7164 /* LRMDRRuleGroupInstanceService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A618E07A5700FF7164 /* LRMDRRuleGroupInstanceService_v62.m */; };
+		8890173C18E07A5800FF7164 /* LRMDRRuleGroupService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A718E07A5700FF7164 /* LRMDRRuleGroupService_v62.m */; };
+		8890173D18E07A5800FF7164 /* LRMDRRuleGroupService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A718E07A5700FF7164 /* LRMDRRuleGroupService_v62.m */; };
+		8890173E18E07A5800FF7164 /* LRMDRRuleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A818E07A5700FF7164 /* LRMDRRuleService_v62.m */; };
+		8890173F18E07A5800FF7164 /* LRMDRRuleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A818E07A5700FF7164 /* LRMDRRuleService_v62.m */; };
+		8890174018E07A5800FF7164 /* LRMembershipRequestService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A918E07A5700FF7164 /* LRMembershipRequestService_v62.m */; };
+		8890174118E07A5800FF7164 /* LRMembershipRequestService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016A918E07A5700FF7164 /* LRMembershipRequestService_v62.m */; };
+		8890174218E07A5800FF7164 /* LROrganizationService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AA18E07A5700FF7164 /* LROrganizationService_v62.m */; };
+		8890174318E07A5800FF7164 /* LROrganizationService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AA18E07A5700FF7164 /* LROrganizationService_v62.m */; };
+		8890174418E07A5800FF7164 /* LROrgLaborService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AB18E07A5700FF7164 /* LROrgLaborService_v62.m */; };
+		8890174518E07A5800FF7164 /* LROrgLaborService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AB18E07A5700FF7164 /* LROrgLaborService_v62.m */; };
+		8890174618E07A5800FF7164 /* LRPasswordPolicyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AC18E07A5700FF7164 /* LRPasswordPolicyService_v62.m */; };
+		8890174718E07A5800FF7164 /* LRPasswordPolicyService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AC18E07A5700FF7164 /* LRPasswordPolicyService_v62.m */; };
+		8890174818E07A5800FF7164 /* LRPermissionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AD18E07A5700FF7164 /* LRPermissionService_v62.m */; };
+		8890174918E07A5800FF7164 /* LRPermissionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AD18E07A5700FF7164 /* LRPermissionService_v62.m */; };
+		8890174A18E07A5800FF7164 /* LRPhoneService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AE18E07A5700FF7164 /* LRPhoneService_v62.m */; };
+		8890174B18E07A5800FF7164 /* LRPhoneService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AE18E07A5700FF7164 /* LRPhoneService_v62.m */; };
+		8890174C18E07A5800FF7164 /* LRPluginSettingService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AF18E07A5700FF7164 /* LRPluginSettingService_v62.m */; };
+		8890174D18E07A5800FF7164 /* LRPluginSettingService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016AF18E07A5700FF7164 /* LRPluginSettingService_v62.m */; };
+		8890174E18E07A5800FF7164 /* LRPollsQuestionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B018E07A5700FF7164 /* LRPollsQuestionService_v62.m */; };
+		8890174F18E07A5800FF7164 /* LRPollsQuestionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B018E07A5700FF7164 /* LRPollsQuestionService_v62.m */; };
+		8890175018E07A5800FF7164 /* LRPollsVoteService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B118E07A5700FF7164 /* LRPollsVoteService_v62.m */; };
+		8890175118E07A5800FF7164 /* LRPollsVoteService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B118E07A5700FF7164 /* LRPollsVoteService_v62.m */; };
+		8890175218E07A5800FF7164 /* LRPortalService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B218E07A5700FF7164 /* LRPortalService_v62.m */; };
+		8890175318E07A5800FF7164 /* LRPortalService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B218E07A5700FF7164 /* LRPortalService_v62.m */; };
+		8890175418E07A5800FF7164 /* LRPortletPreferencesService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B318E07A5700FF7164 /* LRPortletPreferencesService_v62.m */; };
+		8890175518E07A5800FF7164 /* LRPortletPreferencesService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B318E07A5700FF7164 /* LRPortletPreferencesService_v62.m */; };
+		8890175618E07A5800FF7164 /* LRPortletService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B418E07A5700FF7164 /* LRPortletService_v62.m */; };
+		8890175718E07A5800FF7164 /* LRPortletService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B418E07A5700FF7164 /* LRPortletService_v62.m */; };
+		8890175818E07A5800FF7164 /* LRRatingsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B518E07A5700FF7164 /* LRRatingsEntryService_v62.m */; };
+		8890175918E07A5800FF7164 /* LRRatingsEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B518E07A5700FF7164 /* LRRatingsEntryService_v62.m */; };
+		8890175A18E07A5800FF7164 /* LRRegionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B618E07A5700FF7164 /* LRRegionService_v62.m */; };
+		8890175B18E07A5800FF7164 /* LRRegionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B618E07A5700FF7164 /* LRRegionService_v62.m */; };
+		8890175C18E07A5800FF7164 /* LRRepositoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B718E07A5700FF7164 /* LRRepositoryService_v62.m */; };
+		8890175D18E07A5800FF7164 /* LRRepositoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B718E07A5700FF7164 /* LRRepositoryService_v62.m */; };
+		8890175E18E07A5800FF7164 /* LRResourceBlockService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B818E07A5700FF7164 /* LRResourceBlockService_v62.m */; };
+		8890175F18E07A5800FF7164 /* LRResourceBlockService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B818E07A5700FF7164 /* LRResourceBlockService_v62.m */; };
+		8890176018E07A5800FF7164 /* LRResourcePermissionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B918E07A5700FF7164 /* LRResourcePermissionService_v62.m */; };
+		8890176118E07A5800FF7164 /* LRResourcePermissionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016B918E07A5700FF7164 /* LRResourcePermissionService_v62.m */; };
+		8890176218E07A5800FF7164 /* LRRoleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BA18E07A5700FF7164 /* LRRoleService_v62.m */; };
+		8890176318E07A5800FF7164 /* LRRoleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BA18E07A5700FF7164 /* LRRoleService_v62.m */; };
+		8890176418E07A5800FF7164 /* LRSCFrameworkVersionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BB18E07A5700FF7164 /* LRSCFrameworkVersionService_v62.m */; };
+		8890176518E07A5800FF7164 /* LRSCFrameworkVersionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BB18E07A5700FF7164 /* LRSCFrameworkVersionService_v62.m */; };
+		8890176618E07A5800FF7164 /* LRSCLicenseService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BC18E07A5700FF7164 /* LRSCLicenseService_v62.m */; };
+		8890176718E07A5800FF7164 /* LRSCLicenseService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BC18E07A5700FF7164 /* LRSCLicenseService_v62.m */; };
+		8890176818E07A5800FF7164 /* LRSCProductEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BD18E07A5700FF7164 /* LRSCProductEntryService_v62.m */; };
+		8890176918E07A5800FF7164 /* LRSCProductEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BD18E07A5700FF7164 /* LRSCProductEntryService_v62.m */; };
+		8890176A18E07A5800FF7164 /* LRSCProductVersionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BE18E07A5700FF7164 /* LRSCProductVersionService_v62.m */; };
+		8890176B18E07A5800FF7164 /* LRSCProductVersionService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BE18E07A5700FF7164 /* LRSCProductVersionService_v62.m */; };
+		8890176C18E07A5800FF7164 /* LRShoppingCategoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BF18E07A5700FF7164 /* LRShoppingCategoryService_v62.m */; };
+		8890176D18E07A5800FF7164 /* LRShoppingCategoryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016BF18E07A5700FF7164 /* LRShoppingCategoryService_v62.m */; };
+		8890176E18E07A5800FF7164 /* LRShoppingCouponService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C018E07A5700FF7164 /* LRShoppingCouponService_v62.m */; };
+		8890176F18E07A5800FF7164 /* LRShoppingCouponService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C018E07A5700FF7164 /* LRShoppingCouponService_v62.m */; };
+		8890177018E07A5800FF7164 /* LRShoppingItemService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C118E07A5700FF7164 /* LRShoppingItemService_v62.m */; };
+		8890177118E07A5800FF7164 /* LRShoppingItemService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C118E07A5700FF7164 /* LRShoppingItemService_v62.m */; };
+		8890177218E07A5800FF7164 /* LRShoppingOrderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C218E07A5700FF7164 /* LRShoppingOrderService_v62.m */; };
+		8890177318E07A5800FF7164 /* LRShoppingOrderService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C218E07A5700FF7164 /* LRShoppingOrderService_v62.m */; };
+		8890177418E07A5800FF7164 /* LRSocialActivityService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C318E07A5700FF7164 /* LRSocialActivityService_v62.m */; };
+		8890177518E07A5800FF7164 /* LRSocialActivityService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C318E07A5700FF7164 /* LRSocialActivityService_v62.m */; };
+		8890177618E07A5800FF7164 /* LRSocialActivitySettingService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C418E07A5700FF7164 /* LRSocialActivitySettingService_v62.m */; };
+		8890177718E07A5800FF7164 /* LRSocialActivitySettingService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C418E07A5700FF7164 /* LRSocialActivitySettingService_v62.m */; };
+		8890177818E07A5800FF7164 /* LRSocialRequestService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C518E07A5700FF7164 /* LRSocialRequestService_v62.m */; };
+		8890177918E07A5800FF7164 /* LRSocialRequestService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C518E07A5700FF7164 /* LRSocialRequestService_v62.m */; };
+		8890177A18E07A5800FF7164 /* LRStagingService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C618E07A5700FF7164 /* LRStagingService_v62.m */; };
+		8890177B18E07A5800FF7164 /* LRStagingService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C618E07A5700FF7164 /* LRStagingService_v62.m */; };
+		8890177C18E07A5800FF7164 /* LRSyncDLObjectService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C718E07A5700FF7164 /* LRSyncDLObjectService_v62.m */; };
+		8890177D18E07A5800FF7164 /* LRSyncDLObjectService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C718E07A5700FF7164 /* LRSyncDLObjectService_v62.m */; };
+		8890177E18E07A5800FF7164 /* LRTeamService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C818E07A5700FF7164 /* LRTeamService_v62.m */; };
+		8890177F18E07A5800FF7164 /* LRTeamService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C818E07A5700FF7164 /* LRTeamService_v62.m */; };
+		8890178018E07A5800FF7164 /* LRThemeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C918E07A5800FF7164 /* LRThemeService_v62.m */; };
+		8890178118E07A5800FF7164 /* LRThemeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016C918E07A5800FF7164 /* LRThemeService_v62.m */; };
+		8890178218E07A5800FF7164 /* LRTrashEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CA18E07A5800FF7164 /* LRTrashEntryService_v62.m */; };
+		8890178318E07A5800FF7164 /* LRTrashEntryService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CA18E07A5800FF7164 /* LRTrashEntryService_v62.m */; };
+		8890178418E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CB18E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m */; };
+		8890178518E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CB18E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m */; };
+		8890178618E07A5800FF7164 /* LRUserGroupRoleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CC18E07A5800FF7164 /* LRUserGroupRoleService_v62.m */; };
+		8890178718E07A5800FF7164 /* LRUserGroupRoleService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CC18E07A5800FF7164 /* LRUserGroupRoleService_v62.m */; };
+		8890178818E07A5800FF7164 /* LRUserGroupService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CD18E07A5800FF7164 /* LRUserGroupService_v62.m */; };
+		8890178918E07A5800FF7164 /* LRUserGroupService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CD18E07A5800FF7164 /* LRUserGroupService_v62.m */; };
+		8890178A18E07A5800FF7164 /* LRUserService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CE18E07A5800FF7164 /* LRUserService_v62.m */; };
+		8890178B18E07A5800FF7164 /* LRUserService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CE18E07A5800FF7164 /* LRUserService_v62.m */; };
+		8890178C18E07A5800FF7164 /* LRWebsiteService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CF18E07A5800FF7164 /* LRWebsiteService_v62.m */; };
+		8890178D18E07A5800FF7164 /* LRWebsiteService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016CF18E07A5800FF7164 /* LRWebsiteService_v62.m */; };
+		8890178E18E07A5800FF7164 /* LRWikiNodeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016D018E07A5800FF7164 /* LRWikiNodeService_v62.m */; };
+		8890178F18E07A5800FF7164 /* LRWikiNodeService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016D018E07A5800FF7164 /* LRWikiNodeService_v62.m */; };
+		8890179018E07A5800FF7164 /* LRWikiPageService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016D118E07A5800FF7164 /* LRWikiPageService_v62.m */; };
+		8890179118E07A5800FF7164 /* LRWikiPageService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 889016D118E07A5800FF7164 /* LRWikiPageService_v62.m */; };
+		889017A118E07A6900FF7164 /* LRBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179B18E07A6900FF7164 /* LRBaseService.m */; };
+		889017A218E07A6900FF7164 /* LRBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179B18E07A6900FF7164 /* LRBaseService.m */; };
+		889017A318E07A6900FF7164 /* LRBatchSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179C18E07A6900FF7164 /* LRBatchSession.m */; };
+		889017A418E07A6900FF7164 /* LRBatchSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179C18E07A6900FF7164 /* LRBatchSession.m */; };
+		889017A518E07A6900FF7164 /* LRHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179D18E07A6900FF7164 /* LRHttpUtil.m */; };
+		889017A618E07A6900FF7164 /* LRHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179D18E07A6900FF7164 /* LRHttpUtil.m */; };
+		889017A718E07A6900FF7164 /* LRPortraitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179E18E07A6900FF7164 /* LRPortraitUtil.m */; };
+		889017A818E07A6900FF7164 /* LRPortraitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179E18E07A6900FF7164 /* LRPortraitUtil.m */; };
+		889017A918E07A6900FF7164 /* LRServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179F18E07A6900FF7164 /* LRServiceFactory.m */; };
+		889017AA18E07A6900FF7164 /* LRServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890179F18E07A6900FF7164 /* LRServiceFactory.m */; };
+		889017AB18E07A6900FF7164 /* LRSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017A018E07A6900FF7164 /* LRSession.m */; };
+		889017AC18E07A6900FF7164 /* LRSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017A018E07A6900FF7164 /* LRSession.m */; };
+		889017C418E09C7900FF7164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017BD18E09C7900FF7164 /* AppDelegate.m */; };
+		889017C518E09C7900FF7164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889017BE18E09C7900FF7164 /* Images.xcassets */; };
+		889017C618E09C7900FF7164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017BF18E09C7900FF7164 /* main.m */; };
+		889017C718E09C7900FF7164 /* tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 889017C018E09C7900FF7164 /* tests-Info.plist */; };
+		889017C818E09C7900FF7164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017C318E09C7900FF7164 /* ViewController.m */; };
+		889017CF18E09CAC00FF7164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 889017CD18E09CAC00FF7164 /* InfoPlist.strings */; };
+		889017D218E09CCE00FF7164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889017D018E09CCE00FF7164 /* Main.storyboard */; };
+		889017E018E09D5500FF7164 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 889017DE18E09D5500FF7164 /* InfoPlist.strings */; };
+		889017E118E09D5800FF7164 /* testsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 889017DC18E09D3D00FF7164 /* testsTests-Info.plist */; };
+		889017E218E09D5C00FF7164 /* DLAppServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017DA18E09D2400FF7164 /* DLAppServiceTest.m */; };
+		889017E318E09D5F00FF7164 /* GroupServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017D818E09D2000FF7164 /* GroupServiceTest.m */; };
+		889017E418E09D6200FF7164 /* PortalVersionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 889017D618E09D1B00FF7164 /* PortalVersionTest.m */; };
+		889017E618E09D7500FF7164 /* TestSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 889017E518E09D7500FF7164 /* TestSettings.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889015DC18E079A100FF7164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889015AE18E079A100FF7164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889015B518E079A100FF7164;
+			remoteInfo = tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		889015B618E079A100FF7164 /* test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889015B918E079A100FF7164 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		889015BB18E079A100FF7164 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		889015BD18E079A100FF7164 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		889015D718E079A100FF7164 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889015D818E079A100FF7164 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8890161118E07A5700FF7164 /* LRAddressService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAddressService_v62.h; sourceTree = "<group>"; };
+		8890161218E07A5700FF7164 /* LRAnnouncementsDeliveryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnnouncementsDeliveryService_v62.h; sourceTree = "<group>"; };
+		8890161318E07A5700FF7164 /* LRAnnouncementsEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnnouncementsEntryService_v62.h; sourceTree = "<group>"; };
+		8890161418E07A5700FF7164 /* LRAnnouncementsFlagService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAnnouncementsFlagService_v62.h; sourceTree = "<group>"; };
+		8890161518E07A5700FF7164 /* LRAssetCategoryPropertyService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAssetCategoryPropertyService_v62.h; sourceTree = "<group>"; };
+		8890161618E07A5700FF7164 /* LRAssetCategoryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAssetCategoryService_v62.h; sourceTree = "<group>"; };
+		8890161718E07A5700FF7164 /* LRAssetEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAssetEntryService_v62.h; sourceTree = "<group>"; };
+		8890161818E07A5700FF7164 /* LRAssetTagPropertyService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAssetTagPropertyService_v62.h; sourceTree = "<group>"; };
+		8890161918E07A5700FF7164 /* LRAssetTagService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAssetTagService_v62.h; sourceTree = "<group>"; };
+		8890161A18E07A5700FF7164 /* LRAssetVocabularyService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAssetVocabularyService_v62.h; sourceTree = "<group>"; };
+		8890161B18E07A5700FF7164 /* LRBackgroundTaskService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBackgroundTaskService_v62.h; sourceTree = "<group>"; };
+		8890161C18E07A5700FF7164 /* LRBlogsEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBlogsEntryService_v62.h; sourceTree = "<group>"; };
+		8890161D18E07A5700FF7164 /* LRBookmarksEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBookmarksEntryService_v62.h; sourceTree = "<group>"; };
+		8890161E18E07A5700FF7164 /* LRBookmarksFolderService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBookmarksFolderService_v62.h; sourceTree = "<group>"; };
+		8890161F18E07A5700FF7164 /* LRClassNameService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRClassNameService_v62.h; sourceTree = "<group>"; };
+		8890162018E07A5700FF7164 /* LRCompanyService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRCompanyService_v62.h; sourceTree = "<group>"; };
+		8890162118E07A5700FF7164 /* LRContactService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRContactService_v62.h; sourceTree = "<group>"; };
+		8890162218E07A5700FF7164 /* LRCountryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRCountryService_v62.h; sourceTree = "<group>"; };
+		8890162318E07A5700FF7164 /* LRDDLRecordService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDDLRecordService_v62.h; sourceTree = "<group>"; };
+		8890162418E07A5700FF7164 /* LRDDLRecordSetService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDDLRecordSetService_v62.h; sourceTree = "<group>"; };
+		8890162518E07A5700FF7164 /* LRDDMStructureService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDDMStructureService_v62.h; sourceTree = "<group>"; };
+		8890162618E07A5700FF7164 /* LRDDMTemplateService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDDMTemplateService_v62.h; sourceTree = "<group>"; };
+		8890162718E07A5700FF7164 /* LRDLAppService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDLAppService_v62.h; sourceTree = "<group>"; };
+		8890162818E07A5700FF7164 /* LRDLFileEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDLFileEntryService_v62.h; sourceTree = "<group>"; };
+		8890162918E07A5700FF7164 /* LRDLFileEntryTypeService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDLFileEntryTypeService_v62.h; sourceTree = "<group>"; };
+		8890162A18E07A5700FF7164 /* LRDLFileShortcutService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDLFileShortcutService_v62.h; sourceTree = "<group>"; };
+		8890162B18E07A5700FF7164 /* LRDLFileVersionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDLFileVersionService_v62.h; sourceTree = "<group>"; };
+		8890162C18E07A5700FF7164 /* LRDLFolderService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDLFolderService_v62.h; sourceTree = "<group>"; };
+		8890162D18E07A5700FF7164 /* LREmailAddressService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LREmailAddressService_v62.h; sourceTree = "<group>"; };
+		8890162E18E07A5700FF7164 /* LRExpandoColumnService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRExpandoColumnService_v62.h; sourceTree = "<group>"; };
+		8890162F18E07A5700FF7164 /* LRExpandoValueService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRExpandoValueService_v62.h; sourceTree = "<group>"; };
+		8890163018E07A5700FF7164 /* LRFlagsEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRFlagsEntryService_v62.h; sourceTree = "<group>"; };
+		8890163118E07A5700FF7164 /* LRGroupService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRGroupService_v62.h; sourceTree = "<group>"; };
+		8890163218E07A5700FF7164 /* LRImageService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRImageService_v62.h; sourceTree = "<group>"; };
+		8890163318E07A5700FF7164 /* LRJournalArticleService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRJournalArticleService_v62.h; sourceTree = "<group>"; };
+		8890163418E07A5700FF7164 /* LRJournalFeedService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRJournalFeedService_v62.h; sourceTree = "<group>"; };
+		8890163518E07A5700FF7164 /* LRJournalFolderService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRJournalFolderService_v62.h; sourceTree = "<group>"; };
+		8890163618E07A5700FF7164 /* LRJournalStructureService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRJournalStructureService_v62.h; sourceTree = "<group>"; };
+		8890163718E07A5700FF7164 /* LRJournalTemplateService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRJournalTemplateService_v62.h; sourceTree = "<group>"; };
+		8890163818E07A5700FF7164 /* LRLayoutBranchService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutBranchService_v62.h; sourceTree = "<group>"; };
+		8890163918E07A5700FF7164 /* LRLayoutPrototypeService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutPrototypeService_v62.h; sourceTree = "<group>"; };
+		8890163A18E07A5700FF7164 /* LRLayoutRevisionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutRevisionService_v62.h; sourceTree = "<group>"; };
+		8890163B18E07A5700FF7164 /* LRLayoutService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutService_v62.h; sourceTree = "<group>"; };
+		8890163C18E07A5700FF7164 /* LRLayoutSetBranchService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutSetBranchService_v62.h; sourceTree = "<group>"; };
+		8890163D18E07A5700FF7164 /* LRLayoutSetPrototypeService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutSetPrototypeService_v62.h; sourceTree = "<group>"; };
+		8890163E18E07A5700FF7164 /* LRLayoutSetService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLayoutSetService_v62.h; sourceTree = "<group>"; };
+		8890163F18E07A5700FF7164 /* LRListTypeService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRListTypeService_v62.h; sourceTree = "<group>"; };
+		8890164018E07A5700FF7164 /* LRMBBanService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMBBanService_v62.h; sourceTree = "<group>"; };
+		8890164118E07A5700FF7164 /* LRMBCategoryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMBCategoryService_v62.h; sourceTree = "<group>"; };
+		8890164218E07A5700FF7164 /* LRMBMessageService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMBMessageService_v62.h; sourceTree = "<group>"; };
+		8890164318E07A5700FF7164 /* LRMBThreadService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMBThreadService_v62.h; sourceTree = "<group>"; };
+		8890164418E07A5700FF7164 /* LRMDRActionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMDRActionService_v62.h; sourceTree = "<group>"; };
+		8890164518E07A5700FF7164 /* LRMDRRuleGroupInstanceService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMDRRuleGroupInstanceService_v62.h; sourceTree = "<group>"; };
+		8890164618E07A5700FF7164 /* LRMDRRuleGroupService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMDRRuleGroupService_v62.h; sourceTree = "<group>"; };
+		8890164718E07A5700FF7164 /* LRMDRRuleService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMDRRuleService_v62.h; sourceTree = "<group>"; };
+		8890164818E07A5700FF7164 /* LRMembershipRequestService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMembershipRequestService_v62.h; sourceTree = "<group>"; };
+		8890164918E07A5700FF7164 /* LROrganizationService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LROrganizationService_v62.h; sourceTree = "<group>"; };
+		8890164A18E07A5700FF7164 /* LROrgLaborService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LROrgLaborService_v62.h; sourceTree = "<group>"; };
+		8890164B18E07A5700FF7164 /* LRPasswordPolicyService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPasswordPolicyService_v62.h; sourceTree = "<group>"; };
+		8890164C18E07A5700FF7164 /* LRPermissionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPermissionService_v62.h; sourceTree = "<group>"; };
+		8890164D18E07A5700FF7164 /* LRPhoneService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPhoneService_v62.h; sourceTree = "<group>"; };
+		8890164E18E07A5700FF7164 /* LRPluginSettingService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPluginSettingService_v62.h; sourceTree = "<group>"; };
+		8890164F18E07A5700FF7164 /* LRPollsQuestionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPollsQuestionService_v62.h; sourceTree = "<group>"; };
+		8890165018E07A5700FF7164 /* LRPollsVoteService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPollsVoteService_v62.h; sourceTree = "<group>"; };
+		8890165118E07A5700FF7164 /* LRPortalService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPortalService_v62.h; sourceTree = "<group>"; };
+		8890165218E07A5700FF7164 /* LRPortletPreferencesService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPortletPreferencesService_v62.h; sourceTree = "<group>"; };
+		8890165318E07A5700FF7164 /* LRPortletService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPortletService_v62.h; sourceTree = "<group>"; };
+		8890165418E07A5700FF7164 /* LRRatingsEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRRatingsEntryService_v62.h; sourceTree = "<group>"; };
+		8890165518E07A5700FF7164 /* LRRegionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRRegionService_v62.h; sourceTree = "<group>"; };
+		8890165618E07A5700FF7164 /* LRRepositoryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRRepositoryService_v62.h; sourceTree = "<group>"; };
+		8890165718E07A5700FF7164 /* LRResourceBlockService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRResourceBlockService_v62.h; sourceTree = "<group>"; };
+		8890165818E07A5700FF7164 /* LRResourcePermissionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRResourcePermissionService_v62.h; sourceTree = "<group>"; };
+		8890165918E07A5700FF7164 /* LRRoleService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRRoleService_v62.h; sourceTree = "<group>"; };
+		8890165A18E07A5700FF7164 /* LRSCFrameworkVersionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSCFrameworkVersionService_v62.h; sourceTree = "<group>"; };
+		8890165B18E07A5700FF7164 /* LRSCLicenseService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSCLicenseService_v62.h; sourceTree = "<group>"; };
+		8890165C18E07A5700FF7164 /* LRSCProductEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSCProductEntryService_v62.h; sourceTree = "<group>"; };
+		8890165D18E07A5700FF7164 /* LRSCProductVersionService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSCProductVersionService_v62.h; sourceTree = "<group>"; };
+		8890165E18E07A5700FF7164 /* LRShoppingCategoryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRShoppingCategoryService_v62.h; sourceTree = "<group>"; };
+		8890165F18E07A5700FF7164 /* LRShoppingCouponService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRShoppingCouponService_v62.h; sourceTree = "<group>"; };
+		8890166018E07A5700FF7164 /* LRShoppingItemService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRShoppingItemService_v62.h; sourceTree = "<group>"; };
+		8890166118E07A5700FF7164 /* LRShoppingOrderService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRShoppingOrderService_v62.h; sourceTree = "<group>"; };
+		8890166218E07A5700FF7164 /* LRSocialActivityService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSocialActivityService_v62.h; sourceTree = "<group>"; };
+		8890166318E07A5700FF7164 /* LRSocialActivitySettingService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSocialActivitySettingService_v62.h; sourceTree = "<group>"; };
+		8890166418E07A5700FF7164 /* LRSocialRequestService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSocialRequestService_v62.h; sourceTree = "<group>"; };
+		8890166518E07A5700FF7164 /* LRStagingService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRStagingService_v62.h; sourceTree = "<group>"; };
+		8890166618E07A5700FF7164 /* LRSyncDLObjectService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSyncDLObjectService_v62.h; sourceTree = "<group>"; };
+		8890166718E07A5700FF7164 /* LRTeamService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTeamService_v62.h; sourceTree = "<group>"; };
+		8890166818E07A5700FF7164 /* LRThemeService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRThemeService_v62.h; sourceTree = "<group>"; };
+		8890166918E07A5700FF7164 /* LRTrashEntryService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTrashEntryService_v62.h; sourceTree = "<group>"; };
+		8890166A18E07A5700FF7164 /* LRUserGroupGroupRoleService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUserGroupGroupRoleService_v62.h; sourceTree = "<group>"; };
+		8890166B18E07A5700FF7164 /* LRUserGroupRoleService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUserGroupRoleService_v62.h; sourceTree = "<group>"; };
+		8890166C18E07A5700FF7164 /* LRUserGroupService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUserGroupService_v62.h; sourceTree = "<group>"; };
+		8890166D18E07A5700FF7164 /* LRUserService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUserService_v62.h; sourceTree = "<group>"; };
+		8890166E18E07A5700FF7164 /* LRWebsiteService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRWebsiteService_v62.h; sourceTree = "<group>"; };
+		8890166F18E07A5700FF7164 /* LRWikiNodeService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRWikiNodeService_v62.h; sourceTree = "<group>"; };
+		8890167018E07A5700FF7164 /* LRWikiPageService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRWikiPageService_v62.h; sourceTree = "<group>"; };
+		8890167218E07A5700FF7164 /* LRAddressService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAddressService_v62.m; sourceTree = "<group>"; };
+		8890167318E07A5700FF7164 /* LRAnnouncementsDeliveryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnnouncementsDeliveryService_v62.m; sourceTree = "<group>"; };
+		8890167418E07A5700FF7164 /* LRAnnouncementsEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnnouncementsEntryService_v62.m; sourceTree = "<group>"; };
+		8890167518E07A5700FF7164 /* LRAnnouncementsFlagService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAnnouncementsFlagService_v62.m; sourceTree = "<group>"; };
+		8890167618E07A5700FF7164 /* LRAssetCategoryPropertyService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAssetCategoryPropertyService_v62.m; sourceTree = "<group>"; };
+		8890167718E07A5700FF7164 /* LRAssetCategoryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAssetCategoryService_v62.m; sourceTree = "<group>"; };
+		8890167818E07A5700FF7164 /* LRAssetEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAssetEntryService_v62.m; sourceTree = "<group>"; };
+		8890167918E07A5700FF7164 /* LRAssetTagPropertyService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAssetTagPropertyService_v62.m; sourceTree = "<group>"; };
+		8890167A18E07A5700FF7164 /* LRAssetTagService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAssetTagService_v62.m; sourceTree = "<group>"; };
+		8890167B18E07A5700FF7164 /* LRAssetVocabularyService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAssetVocabularyService_v62.m; sourceTree = "<group>"; };
+		8890167C18E07A5700FF7164 /* LRBackgroundTaskService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBackgroundTaskService_v62.m; sourceTree = "<group>"; };
+		8890167D18E07A5700FF7164 /* LRBlogsEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBlogsEntryService_v62.m; sourceTree = "<group>"; };
+		8890167E18E07A5700FF7164 /* LRBookmarksEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBookmarksEntryService_v62.m; sourceTree = "<group>"; };
+		8890167F18E07A5700FF7164 /* LRBookmarksFolderService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBookmarksFolderService_v62.m; sourceTree = "<group>"; };
+		8890168018E07A5700FF7164 /* LRClassNameService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRClassNameService_v62.m; sourceTree = "<group>"; };
+		8890168118E07A5700FF7164 /* LRCompanyService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRCompanyService_v62.m; sourceTree = "<group>"; };
+		8890168218E07A5700FF7164 /* LRContactService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRContactService_v62.m; sourceTree = "<group>"; };
+		8890168318E07A5700FF7164 /* LRCountryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRCountryService_v62.m; sourceTree = "<group>"; };
+		8890168418E07A5700FF7164 /* LRDDLRecordService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDDLRecordService_v62.m; sourceTree = "<group>"; };
+		8890168518E07A5700FF7164 /* LRDDLRecordSetService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDDLRecordSetService_v62.m; sourceTree = "<group>"; };
+		8890168618E07A5700FF7164 /* LRDDMStructureService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDDMStructureService_v62.m; sourceTree = "<group>"; };
+		8890168718E07A5700FF7164 /* LRDDMTemplateService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDDMTemplateService_v62.m; sourceTree = "<group>"; };
+		8890168818E07A5700FF7164 /* LRDLAppService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDLAppService_v62.m; sourceTree = "<group>"; };
+		8890168918E07A5700FF7164 /* LRDLFileEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDLFileEntryService_v62.m; sourceTree = "<group>"; };
+		8890168A18E07A5700FF7164 /* LRDLFileEntryTypeService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDLFileEntryTypeService_v62.m; sourceTree = "<group>"; };
+		8890168B18E07A5700FF7164 /* LRDLFileShortcutService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDLFileShortcutService_v62.m; sourceTree = "<group>"; };
+		8890168C18E07A5700FF7164 /* LRDLFileVersionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDLFileVersionService_v62.m; sourceTree = "<group>"; };
+		8890168D18E07A5700FF7164 /* LRDLFolderService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDLFolderService_v62.m; sourceTree = "<group>"; };
+		8890168E18E07A5700FF7164 /* LREmailAddressService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LREmailAddressService_v62.m; sourceTree = "<group>"; };
+		8890168F18E07A5700FF7164 /* LRExpandoColumnService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRExpandoColumnService_v62.m; sourceTree = "<group>"; };
+		8890169018E07A5700FF7164 /* LRExpandoValueService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRExpandoValueService_v62.m; sourceTree = "<group>"; };
+		8890169118E07A5700FF7164 /* LRFlagsEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRFlagsEntryService_v62.m; sourceTree = "<group>"; };
+		8890169218E07A5700FF7164 /* LRGroupService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRGroupService_v62.m; sourceTree = "<group>"; };
+		8890169318E07A5700FF7164 /* LRImageService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRImageService_v62.m; sourceTree = "<group>"; };
+		8890169418E07A5700FF7164 /* LRJournalArticleService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRJournalArticleService_v62.m; sourceTree = "<group>"; };
+		8890169518E07A5700FF7164 /* LRJournalFeedService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRJournalFeedService_v62.m; sourceTree = "<group>"; };
+		8890169618E07A5700FF7164 /* LRJournalFolderService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRJournalFolderService_v62.m; sourceTree = "<group>"; };
+		8890169718E07A5700FF7164 /* LRJournalStructureService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRJournalStructureService_v62.m; sourceTree = "<group>"; };
+		8890169818E07A5700FF7164 /* LRJournalTemplateService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRJournalTemplateService_v62.m; sourceTree = "<group>"; };
+		8890169918E07A5700FF7164 /* LRLayoutBranchService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutBranchService_v62.m; sourceTree = "<group>"; };
+		8890169A18E07A5700FF7164 /* LRLayoutPrototypeService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutPrototypeService_v62.m; sourceTree = "<group>"; };
+		8890169B18E07A5700FF7164 /* LRLayoutRevisionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutRevisionService_v62.m; sourceTree = "<group>"; };
+		8890169C18E07A5700FF7164 /* LRLayoutService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutService_v62.m; sourceTree = "<group>"; };
+		8890169D18E07A5700FF7164 /* LRLayoutSetBranchService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutSetBranchService_v62.m; sourceTree = "<group>"; };
+		8890169E18E07A5700FF7164 /* LRLayoutSetPrototypeService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutSetPrototypeService_v62.m; sourceTree = "<group>"; };
+		8890169F18E07A5700FF7164 /* LRLayoutSetService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLayoutSetService_v62.m; sourceTree = "<group>"; };
+		889016A018E07A5700FF7164 /* LRListTypeService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRListTypeService_v62.m; sourceTree = "<group>"; };
+		889016A118E07A5700FF7164 /* LRMBBanService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMBBanService_v62.m; sourceTree = "<group>"; };
+		889016A218E07A5700FF7164 /* LRMBCategoryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMBCategoryService_v62.m; sourceTree = "<group>"; };
+		889016A318E07A5700FF7164 /* LRMBMessageService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMBMessageService_v62.m; sourceTree = "<group>"; };
+		889016A418E07A5700FF7164 /* LRMBThreadService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMBThreadService_v62.m; sourceTree = "<group>"; };
+		889016A518E07A5700FF7164 /* LRMDRActionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMDRActionService_v62.m; sourceTree = "<group>"; };
+		889016A618E07A5700FF7164 /* LRMDRRuleGroupInstanceService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMDRRuleGroupInstanceService_v62.m; sourceTree = "<group>"; };
+		889016A718E07A5700FF7164 /* LRMDRRuleGroupService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMDRRuleGroupService_v62.m; sourceTree = "<group>"; };
+		889016A818E07A5700FF7164 /* LRMDRRuleService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMDRRuleService_v62.m; sourceTree = "<group>"; };
+		889016A918E07A5700FF7164 /* LRMembershipRequestService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMembershipRequestService_v62.m; sourceTree = "<group>"; };
+		889016AA18E07A5700FF7164 /* LROrganizationService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LROrganizationService_v62.m; sourceTree = "<group>"; };
+		889016AB18E07A5700FF7164 /* LROrgLaborService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LROrgLaborService_v62.m; sourceTree = "<group>"; };
+		889016AC18E07A5700FF7164 /* LRPasswordPolicyService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPasswordPolicyService_v62.m; sourceTree = "<group>"; };
+		889016AD18E07A5700FF7164 /* LRPermissionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPermissionService_v62.m; sourceTree = "<group>"; };
+		889016AE18E07A5700FF7164 /* LRPhoneService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPhoneService_v62.m; sourceTree = "<group>"; };
+		889016AF18E07A5700FF7164 /* LRPluginSettingService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPluginSettingService_v62.m; sourceTree = "<group>"; };
+		889016B018E07A5700FF7164 /* LRPollsQuestionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPollsQuestionService_v62.m; sourceTree = "<group>"; };
+		889016B118E07A5700FF7164 /* LRPollsVoteService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPollsVoteService_v62.m; sourceTree = "<group>"; };
+		889016B218E07A5700FF7164 /* LRPortalService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPortalService_v62.m; sourceTree = "<group>"; };
+		889016B318E07A5700FF7164 /* LRPortletPreferencesService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPortletPreferencesService_v62.m; sourceTree = "<group>"; };
+		889016B418E07A5700FF7164 /* LRPortletService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPortletService_v62.m; sourceTree = "<group>"; };
+		889016B518E07A5700FF7164 /* LRRatingsEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRRatingsEntryService_v62.m; sourceTree = "<group>"; };
+		889016B618E07A5700FF7164 /* LRRegionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRRegionService_v62.m; sourceTree = "<group>"; };
+		889016B718E07A5700FF7164 /* LRRepositoryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRRepositoryService_v62.m; sourceTree = "<group>"; };
+		889016B818E07A5700FF7164 /* LRResourceBlockService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRResourceBlockService_v62.m; sourceTree = "<group>"; };
+		889016B918E07A5700FF7164 /* LRResourcePermissionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRResourcePermissionService_v62.m; sourceTree = "<group>"; };
+		889016BA18E07A5700FF7164 /* LRRoleService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRRoleService_v62.m; sourceTree = "<group>"; };
+		889016BB18E07A5700FF7164 /* LRSCFrameworkVersionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSCFrameworkVersionService_v62.m; sourceTree = "<group>"; };
+		889016BC18E07A5700FF7164 /* LRSCLicenseService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSCLicenseService_v62.m; sourceTree = "<group>"; };
+		889016BD18E07A5700FF7164 /* LRSCProductEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSCProductEntryService_v62.m; sourceTree = "<group>"; };
+		889016BE18E07A5700FF7164 /* LRSCProductVersionService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSCProductVersionService_v62.m; sourceTree = "<group>"; };
+		889016BF18E07A5700FF7164 /* LRShoppingCategoryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRShoppingCategoryService_v62.m; sourceTree = "<group>"; };
+		889016C018E07A5700FF7164 /* LRShoppingCouponService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRShoppingCouponService_v62.m; sourceTree = "<group>"; };
+		889016C118E07A5700FF7164 /* LRShoppingItemService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRShoppingItemService_v62.m; sourceTree = "<group>"; };
+		889016C218E07A5700FF7164 /* LRShoppingOrderService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRShoppingOrderService_v62.m; sourceTree = "<group>"; };
+		889016C318E07A5700FF7164 /* LRSocialActivityService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSocialActivityService_v62.m; sourceTree = "<group>"; };
+		889016C418E07A5700FF7164 /* LRSocialActivitySettingService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSocialActivitySettingService_v62.m; sourceTree = "<group>"; };
+		889016C518E07A5700FF7164 /* LRSocialRequestService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSocialRequestService_v62.m; sourceTree = "<group>"; };
+		889016C618E07A5700FF7164 /* LRStagingService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRStagingService_v62.m; sourceTree = "<group>"; };
+		889016C718E07A5700FF7164 /* LRSyncDLObjectService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSyncDLObjectService_v62.m; sourceTree = "<group>"; };
+		889016C818E07A5700FF7164 /* LRTeamService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTeamService_v62.m; sourceTree = "<group>"; };
+		889016C918E07A5800FF7164 /* LRThemeService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRThemeService_v62.m; sourceTree = "<group>"; };
+		889016CA18E07A5800FF7164 /* LRTrashEntryService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTrashEntryService_v62.m; sourceTree = "<group>"; };
+		889016CB18E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRUserGroupGroupRoleService_v62.m; sourceTree = "<group>"; };
+		889016CC18E07A5800FF7164 /* LRUserGroupRoleService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRUserGroupRoleService_v62.m; sourceTree = "<group>"; };
+		889016CD18E07A5800FF7164 /* LRUserGroupService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRUserGroupService_v62.m; sourceTree = "<group>"; };
+		889016CE18E07A5800FF7164 /* LRUserService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRUserService_v62.m; sourceTree = "<group>"; };
+		889016CF18E07A5800FF7164 /* LRWebsiteService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRWebsiteService_v62.m; sourceTree = "<group>"; };
+		889016D018E07A5800FF7164 /* LRWikiNodeService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRWikiNodeService_v62.m; sourceTree = "<group>"; };
+		889016D118E07A5800FF7164 /* LRWikiPageService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRWikiPageService_v62.m; sourceTree = "<group>"; };
+		8890179318E07A6900FF7164 /* LRBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseService.h; sourceTree = "<group>"; };
+		8890179418E07A6900FF7164 /* LRBatchSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBatchSession.h; sourceTree = "<group>"; };
+		8890179518E07A6900FF7164 /* LRCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRCallback.h; sourceTree = "<group>"; };
+		8890179618E07A6900FF7164 /* LRHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRHttpUtil.h; sourceTree = "<group>"; };
+		8890179718E07A6900FF7164 /* LRPortraitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPortraitUtil.h; sourceTree = "<group>"; };
+		8890179818E07A6900FF7164 /* LRServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRServiceFactory.h; sourceTree = "<group>"; };
+		8890179918E07A6900FF7164 /* LRSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSession.h; sourceTree = "<group>"; };
+		8890179B18E07A6900FF7164 /* LRBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseService.m; sourceTree = "<group>"; };
+		8890179C18E07A6900FF7164 /* LRBatchSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBatchSession.m; sourceTree = "<group>"; };
+		8890179D18E07A6900FF7164 /* LRHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRHttpUtil.m; sourceTree = "<group>"; };
+		8890179E18E07A6900FF7164 /* LRPortraitUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRPortraitUtil.m; sourceTree = "<group>"; };
+		8890179F18E07A6900FF7164 /* LRServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRServiceFactory.m; sourceTree = "<group>"; };
+		889017A018E07A6900FF7164 /* LRSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSession.m; sourceTree = "<group>"; };
+		889017BC18E09C7900FF7164 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = app/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		889017BD18E09C7900FF7164 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = app/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		889017BE18E09C7900FF7164 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = app/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		889017BF18E09C7900FF7164 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = app/main.m; sourceTree = SOURCE_ROOT; };
+		889017C018E09C7900FF7164 /* tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "tests-Info.plist"; path = "app/tests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		889017C118E09C7900FF7164 /* tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tests-Prefix.pch"; path = "app/tests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		889017C218E09C7900FF7164 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = app/ViewController.h; sourceTree = SOURCE_ROOT; };
+		889017C318E09C7900FF7164 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = app/ViewController.m; sourceTree = SOURCE_ROOT; };
+		889017CE18E09CAC00FF7164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = app/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		889017D118E09CCE00FF7164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = app/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		889017D318E09D0B00FF7164 /* BaseTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseTest.h; path = tests/BaseTest.h; sourceTree = SOURCE_ROOT; };
+		889017D418E09D1400FF7164 /* BaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTest.m; path = tests/BaseTest.m; sourceTree = SOURCE_ROOT; };
+		889017D618E09D1B00FF7164 /* PortalVersionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortalVersionTest.m; path = tests/PortalVersionTest.m; sourceTree = SOURCE_ROOT; };
+		889017D818E09D2000FF7164 /* GroupServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupServiceTest.m; path = tests/GroupServiceTest.m; sourceTree = SOURCE_ROOT; };
+		889017DA18E09D2400FF7164 /* DLAppServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLAppServiceTest.m; path = tests/DLAppServiceTest.m; sourceTree = SOURCE_ROOT; };
+		889017DC18E09D3D00FF7164 /* testsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "testsTests-Info.plist"; path = "tests/testsTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		889017DF18E09D5500FF7164 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = tests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		889017E518E09D7500FF7164 /* TestSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TestSettings.plist; path = tests/TestSettings.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889015B318E079A100FF7164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889015BC18E079A100FF7164 /* CoreGraphics.framework in Frameworks */,
+				889015BE18E079A100FF7164 /* UIKit.framework in Frameworks */,
+				889015BA18E079A100FF7164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889015D418E079A100FF7164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889015D918E079A100FF7164 /* XCTest.framework in Frameworks */,
+				889015DB18E079A100FF7164 /* UIKit.framework in Frameworks */,
+				889015DA18E079A100FF7164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		889015AD18E079A100FF7164 = {
+			isa = PBXGroup;
+			children = (
+				889017AD18E07A6D00FF7164 /* SDK */,
+				889015BF18E079A100FF7164 /* app */,
+				889015DE18E079A100FF7164 /* tests */,
+				889015B818E079A100FF7164 /* Frameworks */,
+				889015B718E079A100FF7164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889015B718E079A100FF7164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889015B618E079A100FF7164 /* test_app.app */,
+				889015D718E079A100FF7164 /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889015B818E079A100FF7164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				889015B918E079A100FF7164 /* Foundation.framework */,
+				889015BB18E079A100FF7164 /* CoreGraphics.framework */,
+				889015BD18E079A100FF7164 /* UIKit.framework */,
+				889015D818E079A100FF7164 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		889015BF18E079A100FF7164 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				889017BC18E09C7900FF7164 /* AppDelegate.h */,
+				889017BD18E09C7900FF7164 /* AppDelegate.m */,
+				889017BE18E09C7900FF7164 /* Images.xcassets */,
+				889017BF18E09C7900FF7164 /* main.m */,
+				889017C018E09C7900FF7164 /* tests-Info.plist */,
+				889017C118E09C7900FF7164 /* tests-Prefix.pch */,
+				889017C218E09C7900FF7164 /* ViewController.h */,
+				889017C318E09C7900FF7164 /* ViewController.m */,
+				889017CD18E09CAC00FF7164 /* InfoPlist.strings */,
+				889017D018E09CCE00FF7164 /* Main.storyboard */,
+			);
+			name = app;
+			path = tests;
+			sourceTree = "<group>";
+		};
+		889015DE18E079A100FF7164 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				889017D318E09D0B00FF7164 /* BaseTest.h */,
+				889017D418E09D1400FF7164 /* BaseTest.m */,
+				889017AE18E07D5500FF7164 /* portal */,
+				889015DF18E079A100FF7164 /* Supporting Files */,
+			);
+			name = tests;
+			path = testsTests;
+			sourceTree = "<group>";
+		};
+		889015DF18E079A100FF7164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889017E518E09D7500FF7164 /* TestSettings.plist */,
+				889017DC18E09D3D00FF7164 /* testsTests-Info.plist */,
+				889017DE18E09D5500FF7164 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		889015EE18E07A1100FF7164 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				8890179218E07A6900FF7164 /* h */,
+				8890179A18E07A6900FF7164 /* m */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		8890160F18E07A3A00FF7164 /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				8890161018E07A5700FF7164 /* h */,
+				8890167118E07A5700FF7164 /* m */,
+			);
+			name = gen;
+			sourceTree = "<group>";
+		};
+		8890161018E07A5700FF7164 /* h */ = {
+			isa = PBXGroup;
+			children = (
+				8890161118E07A5700FF7164 /* LRAddressService_v62.h */,
+				8890161218E07A5700FF7164 /* LRAnnouncementsDeliveryService_v62.h */,
+				8890161318E07A5700FF7164 /* LRAnnouncementsEntryService_v62.h */,
+				8890161418E07A5700FF7164 /* LRAnnouncementsFlagService_v62.h */,
+				8890161518E07A5700FF7164 /* LRAssetCategoryPropertyService_v62.h */,
+				8890161618E07A5700FF7164 /* LRAssetCategoryService_v62.h */,
+				8890161718E07A5700FF7164 /* LRAssetEntryService_v62.h */,
+				8890161818E07A5700FF7164 /* LRAssetTagPropertyService_v62.h */,
+				8890161918E07A5700FF7164 /* LRAssetTagService_v62.h */,
+				8890161A18E07A5700FF7164 /* LRAssetVocabularyService_v62.h */,
+				8890161B18E07A5700FF7164 /* LRBackgroundTaskService_v62.h */,
+				8890161C18E07A5700FF7164 /* LRBlogsEntryService_v62.h */,
+				8890161D18E07A5700FF7164 /* LRBookmarksEntryService_v62.h */,
+				8890161E18E07A5700FF7164 /* LRBookmarksFolderService_v62.h */,
+				8890161F18E07A5700FF7164 /* LRClassNameService_v62.h */,
+				8890162018E07A5700FF7164 /* LRCompanyService_v62.h */,
+				8890162118E07A5700FF7164 /* LRContactService_v62.h */,
+				8890162218E07A5700FF7164 /* LRCountryService_v62.h */,
+				8890162318E07A5700FF7164 /* LRDDLRecordService_v62.h */,
+				8890162418E07A5700FF7164 /* LRDDLRecordSetService_v62.h */,
+				8890162518E07A5700FF7164 /* LRDDMStructureService_v62.h */,
+				8890162618E07A5700FF7164 /* LRDDMTemplateService_v62.h */,
+				8890162718E07A5700FF7164 /* LRDLAppService_v62.h */,
+				8890162818E07A5700FF7164 /* LRDLFileEntryService_v62.h */,
+				8890162918E07A5700FF7164 /* LRDLFileEntryTypeService_v62.h */,
+				8890162A18E07A5700FF7164 /* LRDLFileShortcutService_v62.h */,
+				8890162B18E07A5700FF7164 /* LRDLFileVersionService_v62.h */,
+				8890162C18E07A5700FF7164 /* LRDLFolderService_v62.h */,
+				8890162D18E07A5700FF7164 /* LREmailAddressService_v62.h */,
+				8890162E18E07A5700FF7164 /* LRExpandoColumnService_v62.h */,
+				8890162F18E07A5700FF7164 /* LRExpandoValueService_v62.h */,
+				8890163018E07A5700FF7164 /* LRFlagsEntryService_v62.h */,
+				8890163118E07A5700FF7164 /* LRGroupService_v62.h */,
+				8890163218E07A5700FF7164 /* LRImageService_v62.h */,
+				8890163318E07A5700FF7164 /* LRJournalArticleService_v62.h */,
+				8890163418E07A5700FF7164 /* LRJournalFeedService_v62.h */,
+				8890163518E07A5700FF7164 /* LRJournalFolderService_v62.h */,
+				8890163618E07A5700FF7164 /* LRJournalStructureService_v62.h */,
+				8890163718E07A5700FF7164 /* LRJournalTemplateService_v62.h */,
+				8890163818E07A5700FF7164 /* LRLayoutBranchService_v62.h */,
+				8890163918E07A5700FF7164 /* LRLayoutPrototypeService_v62.h */,
+				8890163A18E07A5700FF7164 /* LRLayoutRevisionService_v62.h */,
+				8890163B18E07A5700FF7164 /* LRLayoutService_v62.h */,
+				8890163C18E07A5700FF7164 /* LRLayoutSetBranchService_v62.h */,
+				8890163D18E07A5700FF7164 /* LRLayoutSetPrototypeService_v62.h */,
+				8890163E18E07A5700FF7164 /* LRLayoutSetService_v62.h */,
+				8890163F18E07A5700FF7164 /* LRListTypeService_v62.h */,
+				8890164018E07A5700FF7164 /* LRMBBanService_v62.h */,
+				8890164118E07A5700FF7164 /* LRMBCategoryService_v62.h */,
+				8890164218E07A5700FF7164 /* LRMBMessageService_v62.h */,
+				8890164318E07A5700FF7164 /* LRMBThreadService_v62.h */,
+				8890164418E07A5700FF7164 /* LRMDRActionService_v62.h */,
+				8890164518E07A5700FF7164 /* LRMDRRuleGroupInstanceService_v62.h */,
+				8890164618E07A5700FF7164 /* LRMDRRuleGroupService_v62.h */,
+				8890164718E07A5700FF7164 /* LRMDRRuleService_v62.h */,
+				8890164818E07A5700FF7164 /* LRMembershipRequestService_v62.h */,
+				8890164918E07A5700FF7164 /* LROrganizationService_v62.h */,
+				8890164A18E07A5700FF7164 /* LROrgLaborService_v62.h */,
+				8890164B18E07A5700FF7164 /* LRPasswordPolicyService_v62.h */,
+				8890164C18E07A5700FF7164 /* LRPermissionService_v62.h */,
+				8890164D18E07A5700FF7164 /* LRPhoneService_v62.h */,
+				8890164E18E07A5700FF7164 /* LRPluginSettingService_v62.h */,
+				8890164F18E07A5700FF7164 /* LRPollsQuestionService_v62.h */,
+				8890165018E07A5700FF7164 /* LRPollsVoteService_v62.h */,
+				8890165118E07A5700FF7164 /* LRPortalService_v62.h */,
+				8890165218E07A5700FF7164 /* LRPortletPreferencesService_v62.h */,
+				8890165318E07A5700FF7164 /* LRPortletService_v62.h */,
+				8890165418E07A5700FF7164 /* LRRatingsEntryService_v62.h */,
+				8890165518E07A5700FF7164 /* LRRegionService_v62.h */,
+				8890165618E07A5700FF7164 /* LRRepositoryService_v62.h */,
+				8890165718E07A5700FF7164 /* LRResourceBlockService_v62.h */,
+				8890165818E07A5700FF7164 /* LRResourcePermissionService_v62.h */,
+				8890165918E07A5700FF7164 /* LRRoleService_v62.h */,
+				8890165A18E07A5700FF7164 /* LRSCFrameworkVersionService_v62.h */,
+				8890165B18E07A5700FF7164 /* LRSCLicenseService_v62.h */,
+				8890165C18E07A5700FF7164 /* LRSCProductEntryService_v62.h */,
+				8890165D18E07A5700FF7164 /* LRSCProductVersionService_v62.h */,
+				8890165E18E07A5700FF7164 /* LRShoppingCategoryService_v62.h */,
+				8890165F18E07A5700FF7164 /* LRShoppingCouponService_v62.h */,
+				8890166018E07A5700FF7164 /* LRShoppingItemService_v62.h */,
+				8890166118E07A5700FF7164 /* LRShoppingOrderService_v62.h */,
+				8890166218E07A5700FF7164 /* LRSocialActivityService_v62.h */,
+				8890166318E07A5700FF7164 /* LRSocialActivitySettingService_v62.h */,
+				8890166418E07A5700FF7164 /* LRSocialRequestService_v62.h */,
+				8890166518E07A5700FF7164 /* LRStagingService_v62.h */,
+				8890166618E07A5700FF7164 /* LRSyncDLObjectService_v62.h */,
+				8890166718E07A5700FF7164 /* LRTeamService_v62.h */,
+				8890166818E07A5700FF7164 /* LRThemeService_v62.h */,
+				8890166918E07A5700FF7164 /* LRTrashEntryService_v62.h */,
+				8890166A18E07A5700FF7164 /* LRUserGroupGroupRoleService_v62.h */,
+				8890166B18E07A5700FF7164 /* LRUserGroupRoleService_v62.h */,
+				8890166C18E07A5700FF7164 /* LRUserGroupService_v62.h */,
+				8890166D18E07A5700FF7164 /* LRUserService_v62.h */,
+				8890166E18E07A5700FF7164 /* LRWebsiteService_v62.h */,
+				8890166F18E07A5700FF7164 /* LRWikiNodeService_v62.h */,
+				8890167018E07A5700FF7164 /* LRWikiPageService_v62.h */,
+			);
+			name = h;
+			path = ../../gen/ios/v62/h;
+			sourceTree = "<group>";
+		};
+		8890167118E07A5700FF7164 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				8890167218E07A5700FF7164 /* LRAddressService_v62.m */,
+				8890167318E07A5700FF7164 /* LRAnnouncementsDeliveryService_v62.m */,
+				8890167418E07A5700FF7164 /* LRAnnouncementsEntryService_v62.m */,
+				8890167518E07A5700FF7164 /* LRAnnouncementsFlagService_v62.m */,
+				8890167618E07A5700FF7164 /* LRAssetCategoryPropertyService_v62.m */,
+				8890167718E07A5700FF7164 /* LRAssetCategoryService_v62.m */,
+				8890167818E07A5700FF7164 /* LRAssetEntryService_v62.m */,
+				8890167918E07A5700FF7164 /* LRAssetTagPropertyService_v62.m */,
+				8890167A18E07A5700FF7164 /* LRAssetTagService_v62.m */,
+				8890167B18E07A5700FF7164 /* LRAssetVocabularyService_v62.m */,
+				8890167C18E07A5700FF7164 /* LRBackgroundTaskService_v62.m */,
+				8890167D18E07A5700FF7164 /* LRBlogsEntryService_v62.m */,
+				8890167E18E07A5700FF7164 /* LRBookmarksEntryService_v62.m */,
+				8890167F18E07A5700FF7164 /* LRBookmarksFolderService_v62.m */,
+				8890168018E07A5700FF7164 /* LRClassNameService_v62.m */,
+				8890168118E07A5700FF7164 /* LRCompanyService_v62.m */,
+				8890168218E07A5700FF7164 /* LRContactService_v62.m */,
+				8890168318E07A5700FF7164 /* LRCountryService_v62.m */,
+				8890168418E07A5700FF7164 /* LRDDLRecordService_v62.m */,
+				8890168518E07A5700FF7164 /* LRDDLRecordSetService_v62.m */,
+				8890168618E07A5700FF7164 /* LRDDMStructureService_v62.m */,
+				8890168718E07A5700FF7164 /* LRDDMTemplateService_v62.m */,
+				8890168818E07A5700FF7164 /* LRDLAppService_v62.m */,
+				8890168918E07A5700FF7164 /* LRDLFileEntryService_v62.m */,
+				8890168A18E07A5700FF7164 /* LRDLFileEntryTypeService_v62.m */,
+				8890168B18E07A5700FF7164 /* LRDLFileShortcutService_v62.m */,
+				8890168C18E07A5700FF7164 /* LRDLFileVersionService_v62.m */,
+				8890168D18E07A5700FF7164 /* LRDLFolderService_v62.m */,
+				8890168E18E07A5700FF7164 /* LREmailAddressService_v62.m */,
+				8890168F18E07A5700FF7164 /* LRExpandoColumnService_v62.m */,
+				8890169018E07A5700FF7164 /* LRExpandoValueService_v62.m */,
+				8890169118E07A5700FF7164 /* LRFlagsEntryService_v62.m */,
+				8890169218E07A5700FF7164 /* LRGroupService_v62.m */,
+				8890169318E07A5700FF7164 /* LRImageService_v62.m */,
+				8890169418E07A5700FF7164 /* LRJournalArticleService_v62.m */,
+				8890169518E07A5700FF7164 /* LRJournalFeedService_v62.m */,
+				8890169618E07A5700FF7164 /* LRJournalFolderService_v62.m */,
+				8890169718E07A5700FF7164 /* LRJournalStructureService_v62.m */,
+				8890169818E07A5700FF7164 /* LRJournalTemplateService_v62.m */,
+				8890169918E07A5700FF7164 /* LRLayoutBranchService_v62.m */,
+				8890169A18E07A5700FF7164 /* LRLayoutPrototypeService_v62.m */,
+				8890169B18E07A5700FF7164 /* LRLayoutRevisionService_v62.m */,
+				8890169C18E07A5700FF7164 /* LRLayoutService_v62.m */,
+				8890169D18E07A5700FF7164 /* LRLayoutSetBranchService_v62.m */,
+				8890169E18E07A5700FF7164 /* LRLayoutSetPrototypeService_v62.m */,
+				8890169F18E07A5700FF7164 /* LRLayoutSetService_v62.m */,
+				889016A018E07A5700FF7164 /* LRListTypeService_v62.m */,
+				889016A118E07A5700FF7164 /* LRMBBanService_v62.m */,
+				889016A218E07A5700FF7164 /* LRMBCategoryService_v62.m */,
+				889016A318E07A5700FF7164 /* LRMBMessageService_v62.m */,
+				889016A418E07A5700FF7164 /* LRMBThreadService_v62.m */,
+				889016A518E07A5700FF7164 /* LRMDRActionService_v62.m */,
+				889016A618E07A5700FF7164 /* LRMDRRuleGroupInstanceService_v62.m */,
+				889016A718E07A5700FF7164 /* LRMDRRuleGroupService_v62.m */,
+				889016A818E07A5700FF7164 /* LRMDRRuleService_v62.m */,
+				889016A918E07A5700FF7164 /* LRMembershipRequestService_v62.m */,
+				889016AA18E07A5700FF7164 /* LROrganizationService_v62.m */,
+				889016AB18E07A5700FF7164 /* LROrgLaborService_v62.m */,
+				889016AC18E07A5700FF7164 /* LRPasswordPolicyService_v62.m */,
+				889016AD18E07A5700FF7164 /* LRPermissionService_v62.m */,
+				889016AE18E07A5700FF7164 /* LRPhoneService_v62.m */,
+				889016AF18E07A5700FF7164 /* LRPluginSettingService_v62.m */,
+				889016B018E07A5700FF7164 /* LRPollsQuestionService_v62.m */,
+				889016B118E07A5700FF7164 /* LRPollsVoteService_v62.m */,
+				889016B218E07A5700FF7164 /* LRPortalService_v62.m */,
+				889016B318E07A5700FF7164 /* LRPortletPreferencesService_v62.m */,
+				889016B418E07A5700FF7164 /* LRPortletService_v62.m */,
+				889016B518E07A5700FF7164 /* LRRatingsEntryService_v62.m */,
+				889016B618E07A5700FF7164 /* LRRegionService_v62.m */,
+				889016B718E07A5700FF7164 /* LRRepositoryService_v62.m */,
+				889016B818E07A5700FF7164 /* LRResourceBlockService_v62.m */,
+				889016B918E07A5700FF7164 /* LRResourcePermissionService_v62.m */,
+				889016BA18E07A5700FF7164 /* LRRoleService_v62.m */,
+				889016BB18E07A5700FF7164 /* LRSCFrameworkVersionService_v62.m */,
+				889016BC18E07A5700FF7164 /* LRSCLicenseService_v62.m */,
+				889016BD18E07A5700FF7164 /* LRSCProductEntryService_v62.m */,
+				889016BE18E07A5700FF7164 /* LRSCProductVersionService_v62.m */,
+				889016BF18E07A5700FF7164 /* LRShoppingCategoryService_v62.m */,
+				889016C018E07A5700FF7164 /* LRShoppingCouponService_v62.m */,
+				889016C118E07A5700FF7164 /* LRShoppingItemService_v62.m */,
+				889016C218E07A5700FF7164 /* LRShoppingOrderService_v62.m */,
+				889016C318E07A5700FF7164 /* LRSocialActivityService_v62.m */,
+				889016C418E07A5700FF7164 /* LRSocialActivitySettingService_v62.m */,
+				889016C518E07A5700FF7164 /* LRSocialRequestService_v62.m */,
+				889016C618E07A5700FF7164 /* LRStagingService_v62.m */,
+				889016C718E07A5700FF7164 /* LRSyncDLObjectService_v62.m */,
+				889016C818E07A5700FF7164 /* LRTeamService_v62.m */,
+				889016C918E07A5800FF7164 /* LRThemeService_v62.m */,
+				889016CA18E07A5800FF7164 /* LRTrashEntryService_v62.m */,
+				889016CB18E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m */,
+				889016CC18E07A5800FF7164 /* LRUserGroupRoleService_v62.m */,
+				889016CD18E07A5800FF7164 /* LRUserGroupService_v62.m */,
+				889016CE18E07A5800FF7164 /* LRUserService_v62.m */,
+				889016CF18E07A5800FF7164 /* LRWebsiteService_v62.m */,
+				889016D018E07A5800FF7164 /* LRWikiNodeService_v62.m */,
+				889016D118E07A5800FF7164 /* LRWikiPageService_v62.m */,
+			);
+			name = m;
+			path = ../../gen/ios/v62/m;
+			sourceTree = "<group>";
+		};
+		8890179218E07A6900FF7164 /* h */ = {
+			isa = PBXGroup;
+			children = (
+				8890179318E07A6900FF7164 /* LRBaseService.h */,
+				8890179418E07A6900FF7164 /* LRBatchSession.h */,
+				8890179518E07A6900FF7164 /* LRCallback.h */,
+				8890179618E07A6900FF7164 /* LRHttpUtil.h */,
+				8890179718E07A6900FF7164 /* LRPortraitUtil.h */,
+				8890179818E07A6900FF7164 /* LRServiceFactory.h */,
+				8890179918E07A6900FF7164 /* LRSession.h */,
+			);
+			name = h;
+			path = ../core/h;
+			sourceTree = "<group>";
+		};
+		8890179A18E07A6900FF7164 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				8890179B18E07A6900FF7164 /* LRBaseService.m */,
+				8890179C18E07A6900FF7164 /* LRBatchSession.m */,
+				8890179D18E07A6900FF7164 /* LRHttpUtil.m */,
+				8890179E18E07A6900FF7164 /* LRPortraitUtil.m */,
+				8890179F18E07A6900FF7164 /* LRServiceFactory.m */,
+				889017A018E07A6900FF7164 /* LRSession.m */,
+			);
+			name = m;
+			path = ../core/m;
+			sourceTree = "<group>";
+		};
+		889017AD18E07A6D00FF7164 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				889015EE18E07A1100FF7164 /* core */,
+				8890160F18E07A3A00FF7164 /* gen */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		889017AE18E07D5500FF7164 /* portal */ = {
+			isa = PBXGroup;
+			children = (
+				889017D618E09D1B00FF7164 /* PortalVersionTest.m */,
+				889017D818E09D2000FF7164 /* GroupServiceTest.m */,
+				889017DA18E09D2400FF7164 /* DLAppServiceTest.m */,
+			);
+			name = portal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889015B518E079A100FF7164 /* test_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889015E818E079A100FF7164 /* Build configuration list for PBXNativeTarget "test_app" */;
+			buildPhases = (
+				889015B218E079A100FF7164 /* Sources */,
+				889015B318E079A100FF7164 /* Frameworks */,
+				889015B418E079A100FF7164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_app;
+			productName = tests;
+			productReference = 889015B618E079A100FF7164 /* test_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889015D618E079A100FF7164 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889015EB18E079A100FF7164 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				889015D318E079A100FF7164 /* Sources */,
+				889015D418E079A100FF7164 /* Frameworks */,
+				889015D518E079A100FF7164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889015DD18E079A100FF7164 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = testsTests;
+			productReference = 889015D718E079A100FF7164 /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889015AE18E079A100FF7164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liferay;
+				TargetAttributes = {
+					889015D618E079A100FF7164 = {
+						TestTargetID = 889015B518E079A100FF7164;
+					};
+				};
+			};
+			buildConfigurationList = 889015B118E079A100FF7164 /* Build configuration list for PBXProject "tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 889015AD18E079A100FF7164;
+			productRefGroup = 889015B718E079A100FF7164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889015B518E079A100FF7164 /* test_app */,
+				889015D618E079A100FF7164 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889015B418E079A100FF7164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889017CF18E09CAC00FF7164 /* InfoPlist.strings in Resources */,
+				889017D218E09CCE00FF7164 /* Main.storyboard in Resources */,
+				889017C518E09C7900FF7164 /* Images.xcassets in Resources */,
+				889017C718E09C7900FF7164 /* tests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889015D518E079A100FF7164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889017E118E09D5800FF7164 /* testsTests-Info.plist in Resources */,
+				889017E018E09D5500FF7164 /* InfoPlist.strings in Resources */,
+				889017E618E09D7500FF7164 /* TestSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889015B218E079A100FF7164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889016F418E07A5800FF7164 /* LRCountryService_v62.m in Sources */,
+				889016E218E07A5800FF7164 /* LRAssetTagService_v62.m in Sources */,
+				8890175418E07A5800FF7164 /* LRPortletPreferencesService_v62.m in Sources */,
+				8890176A18E07A5800FF7164 /* LRSCProductVersionService_v62.m in Sources */,
+				889016D818E07A5800FF7164 /* LRAnnouncementsFlagService_v62.m in Sources */,
+				889016D618E07A5800FF7164 /* LRAnnouncementsEntryService_v62.m in Sources */,
+				889016DE18E07A5800FF7164 /* LRAssetEntryService_v62.m in Sources */,
+				8890175E18E07A5800FF7164 /* LRResourceBlockService_v62.m in Sources */,
+				889017A118E07A6900FF7164 /* LRBaseService.m in Sources */,
+				8890178418E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m in Sources */,
+				8890176E18E07A5800FF7164 /* LRShoppingCouponService_v62.m in Sources */,
+				8890174A18E07A5800FF7164 /* LRPhoneService_v62.m in Sources */,
+				889016FC18E07A5800FF7164 /* LRDDMTemplateService_v62.m in Sources */,
+				8890178C18E07A5800FF7164 /* LRWebsiteService_v62.m in Sources */,
+				8890171018E07A5800FF7164 /* LRFlagsEntryService_v62.m in Sources */,
+				8890178618E07A5800FF7164 /* LRUserGroupRoleService_v62.m in Sources */,
+				8890176018E07A5800FF7164 /* LRResourcePermissionService_v62.m in Sources */,
+				8890170418E07A5800FF7164 /* LRDLFileShortcutService_v62.m in Sources */,
+				889016F018E07A5800FF7164 /* LRCompanyService_v62.m in Sources */,
+				889017A518E07A6900FF7164 /* LRHttpUtil.m in Sources */,
+				8890175618E07A5800FF7164 /* LRPortletService_v62.m in Sources */,
+				8890177C18E07A5800FF7164 /* LRSyncDLObjectService_v62.m in Sources */,
+				889017AB18E07A6900FF7164 /* LRSession.m in Sources */,
+				8890176218E07A5800FF7164 /* LRRoleService_v62.m in Sources */,
+				8890178818E07A5800FF7164 /* LRUserGroupService_v62.m in Sources */,
+				8890173818E07A5800FF7164 /* LRMDRActionService_v62.m in Sources */,
+				8890172418E07A5800FF7164 /* LRLayoutRevisionService_v62.m in Sources */,
+				889016F618E07A5800FF7164 /* LRDDLRecordService_v62.m in Sources */,
+				889016DA18E07A5800FF7164 /* LRAssetCategoryPropertyService_v62.m in Sources */,
+				8890171618E07A5800FF7164 /* LRJournalArticleService_v62.m in Sources */,
+				8890176418E07A5800FF7164 /* LRSCFrameworkVersionService_v62.m in Sources */,
+				8890171E18E07A5800FF7164 /* LRJournalTemplateService_v62.m in Sources */,
+				889016FA18E07A5800FF7164 /* LRDDMStructureService_v62.m in Sources */,
+				8890172C18E07A5800FF7164 /* LRLayoutSetService_v62.m in Sources */,
+				8890177418E07A5800FF7164 /* LRSocialActivityService_v62.m in Sources */,
+				8890174418E07A5800FF7164 /* LROrgLaborService_v62.m in Sources */,
+				8890179018E07A5800FF7164 /* LRWikiPageService_v62.m in Sources */,
+				889016EA18E07A5800FF7164 /* LRBookmarksEntryService_v62.m in Sources */,
+				8890171C18E07A5800FF7164 /* LRJournalStructureService_v62.m in Sources */,
+				8890175A18E07A5800FF7164 /* LRRegionService_v62.m in Sources */,
+				8890173218E07A5800FF7164 /* LRMBCategoryService_v62.m in Sources */,
+				889016FE18E07A5800FF7164 /* LRDLAppService_v62.m in Sources */,
+				8890173618E07A5800FF7164 /* LRMBThreadService_v62.m in Sources */,
+				889017A318E07A6900FF7164 /* LRBatchSession.m in Sources */,
+				8890172E18E07A5800FF7164 /* LRListTypeService_v62.m in Sources */,
+				8890174818E07A5800FF7164 /* LRPermissionService_v62.m in Sources */,
+				8890173E18E07A5800FF7164 /* LRMDRRuleService_v62.m in Sources */,
+				889016E018E07A5800FF7164 /* LRAssetTagPropertyService_v62.m in Sources */,
+				8890173A18E07A5800FF7164 /* LRMDRRuleGroupInstanceService_v62.m in Sources */,
+				889016E418E07A5800FF7164 /* LRAssetVocabularyService_v62.m in Sources */,
+				8890171A18E07A5800FF7164 /* LRJournalFolderService_v62.m in Sources */,
+				8890174618E07A5800FF7164 /* LRPasswordPolicyService_v62.m in Sources */,
+				889017A718E07A6900FF7164 /* LRPortraitUtil.m in Sources */,
+				8890174C18E07A5800FF7164 /* LRPluginSettingService_v62.m in Sources */,
+				889016F218E07A5800FF7164 /* LRContactService_v62.m in Sources */,
+				8890175218E07A5800FF7164 /* LRPortalService_v62.m in Sources */,
+				889016F818E07A5800FF7164 /* LRDDLRecordSetService_v62.m in Sources */,
+				8890170618E07A5800FF7164 /* LRDLFileVersionService_v62.m in Sources */,
+				889016E618E07A5800FF7164 /* LRBackgroundTaskService_v62.m in Sources */,
+				8890170C18E07A5800FF7164 /* LRExpandoColumnService_v62.m in Sources */,
+				8890177618E07A5800FF7164 /* LRSocialActivitySettingService_v62.m in Sources */,
+				8890173018E07A5800FF7164 /* LRMBBanService_v62.m in Sources */,
+				8890174018E07A5800FF7164 /* LRMembershipRequestService_v62.m in Sources */,
+				8890172818E07A5800FF7164 /* LRLayoutSetBranchService_v62.m in Sources */,
+				889016EC18E07A5800FF7164 /* LRBookmarksFolderService_v62.m in Sources */,
+				8890170018E07A5800FF7164 /* LRDLFileEntryService_v62.m in Sources */,
+				8890178E18E07A5800FF7164 /* LRWikiNodeService_v62.m in Sources */,
+				8890176C18E07A5800FF7164 /* LRShoppingCategoryService_v62.m in Sources */,
+				8890174218E07A5800FF7164 /* LROrganizationService_v62.m in Sources */,
+				8890177E18E07A5800FF7164 /* LRTeamService_v62.m in Sources */,
+				8890170E18E07A5800FF7164 /* LRExpandoValueService_v62.m in Sources */,
+				8890170218E07A5800FF7164 /* LRDLFileEntryTypeService_v62.m in Sources */,
+				8890177218E07A5800FF7164 /* LRShoppingOrderService_v62.m in Sources */,
+				8890173C18E07A5800FF7164 /* LRMDRRuleGroupService_v62.m in Sources */,
+				8890171818E07A5800FF7164 /* LRJournalFeedService_v62.m in Sources */,
+				889017A918E07A6900FF7164 /* LRServiceFactory.m in Sources */,
+				889016E818E07A5800FF7164 /* LRBlogsEntryService_v62.m in Sources */,
+				8890175018E07A5800FF7164 /* LRPollsVoteService_v62.m in Sources */,
+				889016DC18E07A5800FF7164 /* LRAssetCategoryService_v62.m in Sources */,
+				8890175818E07A5800FF7164 /* LRRatingsEntryService_v62.m in Sources */,
+				8890178218E07A5800FF7164 /* LRTrashEntryService_v62.m in Sources */,
+				889017C618E09C7900FF7164 /* main.m in Sources */,
+				8890170A18E07A5800FF7164 /* LREmailAddressService_v62.m in Sources */,
+				8890172618E07A5800FF7164 /* LRLayoutService_v62.m in Sources */,
+				8890177818E07A5800FF7164 /* LRSocialRequestService_v62.m in Sources */,
+				8890172018E07A5800FF7164 /* LRLayoutBranchService_v62.m in Sources */,
+				8890171418E07A5800FF7164 /* LRImageService_v62.m in Sources */,
+				8890178A18E07A5800FF7164 /* LRUserService_v62.m in Sources */,
+				889017C818E09C7900FF7164 /* ViewController.m in Sources */,
+				8890172218E07A5800FF7164 /* LRLayoutPrototypeService_v62.m in Sources */,
+				8890177018E07A5800FF7164 /* LRShoppingItemService_v62.m in Sources */,
+				8890172A18E07A5800FF7164 /* LRLayoutSetPrototypeService_v62.m in Sources */,
+				889016D218E07A5800FF7164 /* LRAddressService_v62.m in Sources */,
+				8890177A18E07A5800FF7164 /* LRStagingService_v62.m in Sources */,
+				8890171218E07A5800FF7164 /* LRGroupService_v62.m in Sources */,
+				889017C418E09C7900FF7164 /* AppDelegate.m in Sources */,
+				8890176818E07A5800FF7164 /* LRSCProductEntryService_v62.m in Sources */,
+				889016EE18E07A5800FF7164 /* LRClassNameService_v62.m in Sources */,
+				889016D418E07A5800FF7164 /* LRAnnouncementsDeliveryService_v62.m in Sources */,
+				8890174E18E07A5800FF7164 /* LRPollsQuestionService_v62.m in Sources */,
+				8890178018E07A5800FF7164 /* LRThemeService_v62.m in Sources */,
+				8890176618E07A5800FF7164 /* LRSCLicenseService_v62.m in Sources */,
+				8890173418E07A5800FF7164 /* LRMBMessageService_v62.m in Sources */,
+				8890170818E07A5800FF7164 /* LRDLFolderService_v62.m in Sources */,
+				8890175C18E07A5800FF7164 /* LRRepositoryService_v62.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889015D318E079A100FF7164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8890172718E07A5800FF7164 /* LRLayoutService_v62.m in Sources */,
+				8890175718E07A5800FF7164 /* LRPortletService_v62.m in Sources */,
+				8890171318E07A5800FF7164 /* LRGroupService_v62.m in Sources */,
+				8890172918E07A5800FF7164 /* LRLayoutSetBranchService_v62.m in Sources */,
+				8890174918E07A5800FF7164 /* LRPermissionService_v62.m in Sources */,
+				889016F118E07A5800FF7164 /* LRCompanyService_v62.m in Sources */,
+				8890171F18E07A5800FF7164 /* LRJournalTemplateService_v62.m in Sources */,
+				889016ED18E07A5800FF7164 /* LRBookmarksFolderService_v62.m in Sources */,
+				8890170518E07A5800FF7164 /* LRDLFileShortcutService_v62.m in Sources */,
+				8890174518E07A5800FF7164 /* LROrgLaborService_v62.m in Sources */,
+				889017E418E09D6200FF7164 /* PortalVersionTest.m in Sources */,
+				889016FD18E07A5800FF7164 /* LRDDMTemplateService_v62.m in Sources */,
+				8890173D18E07A5800FF7164 /* LRMDRRuleGroupService_v62.m in Sources */,
+				889016DF18E07A5800FF7164 /* LRAssetEntryService_v62.m in Sources */,
+				8890172118E07A5800FF7164 /* LRLayoutBranchService_v62.m in Sources */,
+				8890175918E07A5800FF7164 /* LRRatingsEntryService_v62.m in Sources */,
+				8890177D18E07A5800FF7164 /* LRSyncDLObjectService_v62.m in Sources */,
+				889016E118E07A5800FF7164 /* LRAssetTagPropertyService_v62.m in Sources */,
+				8890175B18E07A5800FF7164 /* LRRegionService_v62.m in Sources */,
+				8890171D18E07A5800FF7164 /* LRJournalStructureService_v62.m in Sources */,
+				8890173918E07A5800FF7164 /* LRMDRActionService_v62.m in Sources */,
+				8890178718E07A5800FF7164 /* LRUserGroupRoleService_v62.m in Sources */,
+				8890176718E07A5800FF7164 /* LRSCLicenseService_v62.m in Sources */,
+				8890170918E07A5800FF7164 /* LRDLFolderService_v62.m in Sources */,
+				889017AC18E07A6900FF7164 /* LRSession.m in Sources */,
+				8890172F18E07A5800FF7164 /* LRListTypeService_v62.m in Sources */,
+				889016E918E07A5800FF7164 /* LRBlogsEntryService_v62.m in Sources */,
+				889016E718E07A5800FF7164 /* LRBackgroundTaskService_v62.m in Sources */,
+				889016D918E07A5800FF7164 /* LRAnnouncementsFlagService_v62.m in Sources */,
+				8890170318E07A5800FF7164 /* LRDLFileEntryTypeService_v62.m in Sources */,
+				8807A3DD18E09ED60062651A /* BaseTest.m in Sources */,
+				8890175F18E07A5800FF7164 /* LRResourceBlockService_v62.m in Sources */,
+				8890176F18E07A5800FF7164 /* LRShoppingCouponService_v62.m in Sources */,
+				8890178118E07A5800FF7164 /* LRThemeService_v62.m in Sources */,
+				8890174118E07A5800FF7164 /* LRMembershipRequestService_v62.m in Sources */,
+				8890176318E07A5800FF7164 /* LRRoleService_v62.m in Sources */,
+				8890173718E07A5800FF7164 /* LRMBThreadService_v62.m in Sources */,
+				889017E318E09D5F00FF7164 /* GroupServiceTest.m in Sources */,
+				8890179118E07A5800FF7164 /* LRWikiPageService_v62.m in Sources */,
+				8890174318E07A5800FF7164 /* LROrganizationService_v62.m in Sources */,
+				8890170B18E07A5800FF7164 /* LREmailAddressService_v62.m in Sources */,
+				889016FB18E07A5800FF7164 /* LRDDMStructureService_v62.m in Sources */,
+				8890170F18E07A5800FF7164 /* LRExpandoValueService_v62.m in Sources */,
+				8890177F18E07A5800FF7164 /* LRTeamService_v62.m in Sources */,
+				8890174B18E07A5800FF7164 /* LRPhoneService_v62.m in Sources */,
+				889016F318E07A5800FF7164 /* LRContactService_v62.m in Sources */,
+				8890177318E07A5800FF7164 /* LRShoppingOrderService_v62.m in Sources */,
+				889017A618E07A6900FF7164 /* LRHttpUtil.m in Sources */,
+				8890173118E07A5800FF7164 /* LRMBBanService_v62.m in Sources */,
+				889017A818E07A6900FF7164 /* LRPortraitUtil.m in Sources */,
+				8890177918E07A5800FF7164 /* LRSocialRequestService_v62.m in Sources */,
+				8890173F18E07A5800FF7164 /* LRMDRRuleService_v62.m in Sources */,
+				8890173B18E07A5800FF7164 /* LRMDRRuleGroupInstanceService_v62.m in Sources */,
+				889016F518E07A5800FF7164 /* LRCountryService_v62.m in Sources */,
+				8890178B18E07A5800FF7164 /* LRUserService_v62.m in Sources */,
+				8890170D18E07A5800FF7164 /* LRExpandoColumnService_v62.m in Sources */,
+				889016DD18E07A5800FF7164 /* LRAssetCategoryService_v62.m in Sources */,
+				8890170118E07A5800FF7164 /* LRDLFileEntryService_v62.m in Sources */,
+				889017AA18E07A6900FF7164 /* LRServiceFactory.m in Sources */,
+				8890178318E07A5800FF7164 /* LRTrashEntryService_v62.m in Sources */,
+				889016EF18E07A5800FF7164 /* LRClassNameService_v62.m in Sources */,
+				889016D318E07A5800FF7164 /* LRAddressService_v62.m in Sources */,
+				889016D518E07A5800FF7164 /* LRAnnouncementsDeliveryService_v62.m in Sources */,
+				8890171118E07A5800FF7164 /* LRFlagsEntryService_v62.m in Sources */,
+				889016FF18E07A5800FF7164 /* LRDLAppService_v62.m in Sources */,
+				8890171718E07A5800FF7164 /* LRJournalArticleService_v62.m in Sources */,
+				8890178918E07A5800FF7164 /* LRUserGroupService_v62.m in Sources */,
+				889016E318E07A5800FF7164 /* LRAssetTagService_v62.m in Sources */,
+				8890171918E07A5800FF7164 /* LRJournalFeedService_v62.m in Sources */,
+				889016F718E07A5800FF7164 /* LRDDLRecordService_v62.m in Sources */,
+				8890172D18E07A5800FF7164 /* LRLayoutSetService_v62.m in Sources */,
+				8890176918E07A5800FF7164 /* LRSCProductEntryService_v62.m in Sources */,
+				8890170718E07A5800FF7164 /* LRDLFileVersionService_v62.m in Sources */,
+				889016D718E07A5800FF7164 /* LRAnnouncementsEntryService_v62.m in Sources */,
+				8890178F18E07A5800FF7164 /* LRWikiNodeService_v62.m in Sources */,
+				8890172518E07A5800FF7164 /* LRLayoutRevisionService_v62.m in Sources */,
+				8890174D18E07A5800FF7164 /* LRPluginSettingService_v62.m in Sources */,
+				8890173318E07A5800FF7164 /* LRMBCategoryService_v62.m in Sources */,
+				8890177118E07A5800FF7164 /* LRShoppingItemService_v62.m in Sources */,
+				8890178518E07A5800FF7164 /* LRUserGroupGroupRoleService_v62.m in Sources */,
+				8890175518E07A5800FF7164 /* LRPortletPreferencesService_v62.m in Sources */,
+				8890175D18E07A5800FF7164 /* LRRepositoryService_v62.m in Sources */,
+				8890174718E07A5800FF7164 /* LRPasswordPolicyService_v62.m in Sources */,
+				8890176518E07A5800FF7164 /* LRSCFrameworkVersionService_v62.m in Sources */,
+				8890171518E07A5800FF7164 /* LRImageService_v62.m in Sources */,
+				889017A418E07A6900FF7164 /* LRBatchSession.m in Sources */,
+				8890172318E07A5800FF7164 /* LRLayoutPrototypeService_v62.m in Sources */,
+				889017A218E07A6900FF7164 /* LRBaseService.m in Sources */,
+				8890173518E07A5800FF7164 /* LRMBMessageService_v62.m in Sources */,
+				889016DB18E07A5800FF7164 /* LRAssetCategoryPropertyService_v62.m in Sources */,
+				8890175118E07A5800FF7164 /* LRPollsVoteService_v62.m in Sources */,
+				889016E518E07A5800FF7164 /* LRAssetVocabularyService_v62.m in Sources */,
+				8890177518E07A5800FF7164 /* LRSocialActivityService_v62.m in Sources */,
+				8890172B18E07A5800FF7164 /* LRLayoutSetPrototypeService_v62.m in Sources */,
+				8890177B18E07A5800FF7164 /* LRStagingService_v62.m in Sources */,
+				8890176D18E07A5800FF7164 /* LRShoppingCategoryService_v62.m in Sources */,
+				889016F918E07A5800FF7164 /* LRDDLRecordSetService_v62.m in Sources */,
+				8890177718E07A5800FF7164 /* LRSocialActivitySettingService_v62.m in Sources */,
+				8890174F18E07A5800FF7164 /* LRPollsQuestionService_v62.m in Sources */,
+				8890171B18E07A5800FF7164 /* LRJournalFolderService_v62.m in Sources */,
+				8890175318E07A5800FF7164 /* LRPortalService_v62.m in Sources */,
+				8890178D18E07A5800FF7164 /* LRWebsiteService_v62.m in Sources */,
+				889017E218E09D5C00FF7164 /* DLAppServiceTest.m in Sources */,
+				889016EB18E07A5800FF7164 /* LRBookmarksEntryService_v62.m in Sources */,
+				8890176118E07A5800FF7164 /* LRResourcePermissionService_v62.m in Sources */,
+				8890176B18E07A5800FF7164 /* LRSCProductVersionService_v62.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889015DD18E079A100FF7164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889015B518E079A100FF7164 /* test_app */;
+			targetProxy = 889015DC18E079A100FF7164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		889017CD18E09CAC00FF7164 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889017CE18E09CAC00FF7164 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		889017D018E09CCE00FF7164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889017D118E09CCE00FF7164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		889017DE18E09D5500FF7164 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889017DF18E09D5500FF7164 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889015E618E079A100FF7164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		889015E718E079A100FF7164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889015E918E079A100FF7164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "app/tests-Prefix.pch";
+				INFOPLIST_FILE = "app/tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		889015EA18E079A100FF7164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "app/tests-Prefix.pch";
+				INFOPLIST_FILE = "app/tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		889015EC18E079A100FF7164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tests.app/tests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tests/testsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		889015ED18E079A100FF7164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tests.app/tests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tests-Prefix.pch";
+				INFOPLIST_FILE = "tests/testsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889015B118E079A100FF7164 /* Build configuration list for PBXProject "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889015E618E079A100FF7164 /* Debug */,
+				889015E718E079A100FF7164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889015E818E079A100FF7164 /* Build configuration list for PBXNativeTarget "test_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889015E918E079A100FF7164 /* Debug */,
+				889015EA18E079A100FF7164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889015EB18E079A100FF7164 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889015EC18E079A100FF7164 /* Debug */,
+				889015ED18E079A100FF7164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889015AE18E079A100FF7164 /* Project object */;
+}
