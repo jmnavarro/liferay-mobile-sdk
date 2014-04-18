@@ -13,6 +13,7 @@
  */
 
 #import "LRHttpUtil.h"
+#import "LRDefaultHttpQueue.h"
 
 /**
  * @author Bruno Farache
@@ -220,8 +221,6 @@ static NSMutableDictionary *_versions;
 
 	id<LRCallback> callback = session.callback;
 
-	NSOperationQueue *queue = [[NSOperationQueue alloc] init];
-
 	LRHandler handler = ^(NSURLResponse *r, NSData *d, NSError *e) {
 		dispatch_async(dispatch_get_main_queue(), ^{
 			if (e) {
@@ -249,8 +248,8 @@ static NSMutableDictionary *_versions;
 		});
 	};
 
-	[NSURLConnection sendAsynchronousRequest:request queue:queue
-		completionHandler:handler];
+	[NSURLConnection sendAsynchronousRequest:request
+		queue:[LRDefaultHttpQueue sharedQueue] completionHandler:handler];
 }
 
 @end
