@@ -80,6 +80,17 @@ public class LanguageUtil {
 		return false;
 	}
 
+	public boolean isComparator(String type) {
+		if (type.equals(
+				"object<com.liferay.portal.kernel.util.OrderByComparator>")) {
+
+			return true;
+		}
+
+		return false;
+	}
+
+
 	protected static final Map<String, String> CLASS_NAMES =
 		new HashMap<String, String>();
 

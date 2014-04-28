@@ -37,10 +37,10 @@ ${esc.h}import "${className}.h"
 	##t	NSDictionary *_params = @{
 
 	#foreach ($param in $parameters)
-		#set ($paramName = $param.name)
+		#set ($paramName = $languageUtil.getParamName($param.name, $param.type))
 		#set ($paramValue = $languageUtil.getParamValue($paramName, $param.type))
 
-		#set ($line = "@${esc.q}$paramName${esc.q}: $paramValue")
+		#set ($line = "@${esc.q}$param.name${esc.q}: $paramValue")
 
 		#if ($foreach.hasNext)
 			#set ($line = "$line,")

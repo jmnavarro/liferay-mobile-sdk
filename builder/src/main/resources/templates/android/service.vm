@@ -60,7 +60,9 @@ public class $className extends BaseService {
 	##n
 
 	#foreach ($param in $parameters)
-		##t			_params.put(${esc.q}$param.name${esc.q}, $param.name);
+		#set ($paramName = $languageUtil.getParamName($param.name, $param.type))
+
+		##t			_params.put(${esc.q}$param.name${esc.q}, $paramName);
 
 		#if (!$foreach.hasNext)
 			##n
