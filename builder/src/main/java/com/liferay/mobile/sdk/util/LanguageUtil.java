@@ -54,6 +54,14 @@ public class LanguageUtil {
 		return path.substring(index);
 	}
 
+	public String getParamName(String paramName, String paramType) {
+		if (isComparator(paramType)) {
+			return paramName + "ClassName";
+		}
+
+		return paramName;
+	}
+
 	public String getServiceClassName(String serviceContext) {
 		StringBuilder sb = new StringBuilder();
 
