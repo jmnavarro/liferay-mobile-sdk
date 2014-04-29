@@ -14,6 +14,9 @@
 
 package com.liferay.mobile.sdk.util;
 
+import com.liferay.mobile.sdk.http.Parameter;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -98,6 +101,15 @@ public class LanguageUtil {
 		return false;
 	}
 
+	public Parameter getComparatorParam(ArrayList<Parameter> parameters) {
+		for (Parameter p : parameters) {
+			if (isComparator(p.getType())) {
+				return p;
+			}
+		}
+
+		return null;
+	}
 
 	protected static final Map<String, String> CLASS_NAMES =
 		new HashMap<String, String>();
