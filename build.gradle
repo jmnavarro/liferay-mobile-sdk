@@ -130,7 +130,8 @@ configure(subprojects.findAll { it.name != 'builder' }) {
 			"context=sync-web",
 			"filter=$filter",
 			"packageName=$packageName",
-			"destination=$destination"
+			"destination=$destination",
+			"version=$version"
 		]
 	}
 
@@ -144,7 +145,8 @@ configure(subprojects.findAll { it.name != 'builder' }) {
 			"context=$context",
 			"filter=$filter",
 			"packageName=$packageName",
-			"destination=$destination"
+			"destination=$destination",
+			"version=$version"
 		]
 	}
 }
