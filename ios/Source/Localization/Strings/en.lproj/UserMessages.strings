@@ -15,3 +15,7 @@
 "http-error" = "The server returned an error code";
 "json-parsing-error" = "The server returned an invalid format";
 "wrong-credentials" = "The server didn't authorize the request. Check your credentials and try again.";
+"request-error-not-connected" = "It seems your Internet connection is not working properly. Please, check your settings and try again.";
+"request-error" = "An unknown error occurred sending the request to the server.";
+"error-unknown" = "An unknown error occurred.";
+"exception-error-generic" = "The server returned an unknown exception.";

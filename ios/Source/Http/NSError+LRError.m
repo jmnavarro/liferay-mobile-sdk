@@ -55,4 +55,35 @@ NSString *const LR_ERROR_DOMAIN = @"com.liferay.mobile.sdk";
 	return [self errorWithCode:code description:description userInfo:userInfo];
 }
 
++ (instancetype)errorWithError:(NSError *)underlyingError {
+	NSInteger errorCode;
+	NSString *descriptionKey;
+
+	if ([underlyingError.domain isEqualToString:NSURLErrorDomain]) {
+		switch (underlyingError.code) {
+			case NSURLErrorCannotFindHost:
+			case NSURLErrorCannotConnectToHost:
+			case NSURLErrorNetworkConnectionLost:
+			case NSURLErrorDNSLookupFailed:
+			case NSURLErrorNotConnectedToInternet:
+				errorCode = LRErrorCodeNotConnected;
+				descriptionKey = @"request-error-not-connected";
+				break;
+			default:
+				errorCode = LRErrorCodeRequest;
+				descriptionKey = @"request-error";
+				break;
+		}
+	}
+	else {
+		errorCode = LRErrorCodeUnknown;
+		descriptionKey = @"error-unknown";
+	}
+
+	NSDictionary *userInfo = @{NSUnderlyingErrorKey : underlyingError};
+
+	return [self errorWithCode:errorCode descriptionKey:descriptionKey
+		userInfo:userInfo];
+}
+
 @end
