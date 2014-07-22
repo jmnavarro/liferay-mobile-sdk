@@ -66,7 +66,6 @@ static NSMutableArray *_translationTables = nil;
 
 		[self registerTranslationTable:TRANSLATION_TABLE_USER_MESSAGES];
 		[self registerTranslationTable:TRANSLATION_TABLE_EXCEPTION_MESSAGES];
-		[self registerTranslationTable:TRANSLATION_TABLE_CUSTOM_MESSAGES];
     });
 
 	return sdkBundle ?: classBundle;
@@ -88,18 +87,37 @@ static NSMutableArray *_translationTables = nil;
 }
 
 - (NSString *)fetchStringForKey:(NSString *)key {
-	static NSString *const EMPTY_TRANSLATION = @"empty";
+	NSString *localizedString = [self fetchStringForKey:key
+		tableName:TRANSLATION_TABLE_CUSTOM_MESSAGES];
+
+	if (localizedString) {
+		return localizedString;
+	}
 
 	for (NSString *tableName in _translationTables) {
-		NSString *localizedString = [self localizedStringForKey:key
-			value:EMPTY_TRANSLATION table:tableName];
+		localizedString = [self fetchStringForKey:key tableName:tableName];
 
-		if (localizedString != EMPTY_TRANSLATION) {
+		if (localizedString) {
 			return localizedString;
 		}
 	}
 
 	return nil;
+}
+
+- (NSString *)fetchStringForKey:(NSString *)key
+		tableName:(NSString *)tableName {
+
+	static NSString *const EMPTY_TRANSLATION = @"empty";
+
+	NSString *localizedString = [self localizedStringForKey:key
+		value:EMPTY_TRANSLATION table:tableName];
+
+	if (localizedString == EMPTY_TRANSLATION) {
+		localizedString = nil;
+	}
+
+	return localizedString;
 }
 
 @end
