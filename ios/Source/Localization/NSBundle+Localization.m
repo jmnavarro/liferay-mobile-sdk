@@ -57,7 +57,7 @@ static NSMutableArray *_translationTables = nil;
     static dispatch_once_t once;
 
     dispatch_once(&once, ^{
-        classBundle = [NSBundle bundleForClass:[self class]];
+        classBundle = [NSBundle bundleForClass:[LRSession class]];
 
 	    NSString *bundlePath =
 			[classBundle pathForResource:@"Liferay-iOS-SDK" ofType:@"bundle"];
