@@ -34,11 +34,10 @@ NSString *const LR_ERROR_DOMAIN = @"com.liferay.mobile.sdk";
 	NSMutableDictionary *values = [[NSMutableDictionary alloc]
 		initWithDictionary:userInfo];
 
-	[values setObject:description forKey:NSLocalizedDescriptionKey];
+	values[NSLocalizedDescriptionKey] = description ?: @"";
 
 	return [self errorWithDomain:LR_ERROR_DOMAIN code:code userInfo:values];
 }
-
 
 + (instancetype)errorWithCode:(LRErrorCode)code
 		descriptionKey:(NSString *)descriptionKey {
