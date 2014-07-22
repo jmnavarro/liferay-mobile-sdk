@@ -25,10 +25,14 @@ typedef NS_ENUM(NSInteger, LRErrorCode) {
  */
 @interface NSError (LRError)
 
-+ (NSError *)errorWithCode:(LRErrorCode)code
-	description:(NSString *)description;
++ (instancetype)errorWithCode:(LRErrorCode)code
+   description:(NSString *)description;
 
-+ (NSError *)errorWithCode:(LRErrorCode)code description:(NSString *)description
-   userInfo:(NSDictionary *)userInfo;
++ (instancetype)errorWithCode:(LRErrorCode)code description:(NSString *)description userInfo:(NSDictionary *)userInfo;
+
++ (instancetype)errorWithCode:(LRErrorCode)code
+  descriptionKey:(NSString *)descriptionKey;
+
++ (instancetype)errorWithCode:(LRErrorCode)code descriptionKey:(NSString *)descriptionKey userInfo:(NSDictionary *)userInfo;
 
 @end
