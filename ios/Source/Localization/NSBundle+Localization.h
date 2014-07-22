@@ -18,6 +18,8 @@
 
 + (NSBundle *)localizedBundle;
 
+- (BOOL)existsStringForKey:(NSString *)key;
+
 - (NSString *)localizedStringForKey:(NSString *)key;
 
 @end

@@ -50,6 +50,13 @@ NSString *const EMPTY_TRANSLATION = @"empty";
 	return sdkBundle ?: classBundle;
 }
 
+- (BOOL)existsStringForKey:(NSString *)key {
+	NSString *localizedString = [self localizedStringForKey:key
+		value:EMPTY_TRANSLATION table:@"UserMessages"];
+
+	return (localizedString != EMPTY_TRANSLATION);
+}
+
 - (NSString *)localizedStringForKey:(NSString *)key {
 	NSString *localizedString = [self localizedStringForKey:key
 		value:EMPTY_TRANSLATION table:@"UserMessages"];
