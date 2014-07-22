@@ -12,6 +12,7 @@
 		88C0C867197E7BC00068ACA5 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0C866197E7BC00068ACA5 /* NSBundle+Localization.m */; };
 		88C0C868197E7BC00068ACA5 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0C866197E7BC00068ACA5 /* NSBundle+Localization.m */; };
 		88C0C86D197E7BCC0068ACA5 /* UserMessages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C0C86A197E7BCC0068ACA5 /* UserMessages.strings */; };
+		88C0C878197ECB360068ACA5 /* ExceptionMessages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C0C876197ECB360068ACA5 /* ExceptionMessages.strings */; };
 		8F7B829DA4104FEDB903590F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 792F68BAE4DF41869F1F1580 /* libPods.a */; };
 		CC03FB6F18ED7BA000F3F16C /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC03FB6C18ED7BA000F3F16C /* settings.plist */; };
 		CC03FCA418ED7DCD00F3F16C /* LRBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03FB7418ED7DCC00F3F16C /* LRBaseService.m */; };
@@ -175,6 +176,8 @@
 		88C0C866197E7BC00068ACA5 /* NSBundle+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Localization.m"; path = "Source/Localization/NSBundle+Localization.m"; sourceTree = SOURCE_ROOT; };
 		88C0C86B197E7BCC0068ACA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UserMessages.strings; sourceTree = "<group>"; };
 		88C0C86C197E7BCC0068ACA5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/UserMessages.strings; sourceTree = "<group>"; };
+		88C0C877197ECB360068ACA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ExceptionMessages.strings; sourceTree = "<group>"; };
+		88C0C879197ECB3E0068ACA5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ExceptionMessages.strings; sourceTree = "<group>"; };
 		88FD86C519742C4700E4EEF9 /* GroupServiceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupServiceTest.h; sourceTree = "<group>"; };
 		CC03FB6C18ED7BA000F3F16C /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 		CC03FB6D18ED7BA000F3F16C /* Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
@@ -451,6 +454,7 @@
 		88C0C869197E7BCC0068ACA5 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				88C0C876197ECB360068ACA5 /* ExceptionMessages.strings */,
 				88C0C86A197E7BCC0068ACA5 /* UserMessages.strings */,
 			);
 			name = Strings;
@@ -1677,6 +1681,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C0C878197ECB360068ACA5 /* ExceptionMessages.strings in Resources */,
 				88C0C86D197E7BCC0068ACA5 /* UserMessages.strings in Resources */,
 				CC4B7A2F1938C47F003611C4 /* logo.png in Resources */,
 				CC03FB6F18ED7BA000F3F16C /* settings.plist in Resources */,
@@ -1878,6 +1883,15 @@
 				88C0C86C197E7BCC0068ACA5 /* es */,
 			);
 			name = UserMessages.strings;
+			sourceTree = "<group>";
+		};
+		88C0C876197ECB360068ACA5 /* ExceptionMessages.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C0C877197ECB360068ACA5 /* en */,
+				88C0C879197ECB3E0068ACA5 /* es */,
+			);
+			name = ExceptionMessages.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
