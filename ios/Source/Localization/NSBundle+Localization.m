@@ -8,6 +8,8 @@
 
 #import "NSBundle+Localization.h"
 
+NSString *const EMPTY_TRANSLATION = @"empty";
+
 @implementation NSBundle (Localization)
 
 + (NSBundle *)localizedBundle {
@@ -49,7 +51,15 @@
 }
 
 - (NSString *)localizedStringForKey:(NSString *)key {
-	return [self localizedStringForKey:key value:key table:@"UserMessages"];
+	NSString *localizedString = [self localizedStringForKey:key
+		value:EMPTY_TRANSLATION table:@"UserMessages"];
+
+	if (localizedString == EMPTY_TRANSLATION) {
+		NSLog(@"WARNING: Couldn't be found translation key '%@'", key);
+		localizedString = key;
+	}
+
+	return localizedString;
 }
 
 
