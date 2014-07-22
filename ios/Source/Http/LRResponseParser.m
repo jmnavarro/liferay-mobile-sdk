@@ -51,10 +51,10 @@ const int LR_HTTP_STATUS_UNAUTHORIZED = 401;
 
 	if (statusCode == LR_HTTP_STATUS_UNAUTHORIZED) {
 		error = [NSError errorWithCode:LRErrorCodeUnauthorized
-			description:@"wrong-credentials"];
+			descriptionKey:@"wrong-credentials"];
 	}
 	else if (statusCode != LR_HTTP_STATUS_OK) {
-		error = [NSError errorWithCode:statusCode description:@"http-error"];
+		error = [NSError errorWithCode:statusCode descriptionKey:@"http-error"];
 	}
 
 	return error;
@@ -102,7 +102,7 @@ const int LR_HTTP_STATUS_UNAUTHORIZED = 401;
 		};
 
 		*error = [NSError errorWithCode:LRErrorCodeParse
-			description:@"json-parsing-error" userInfo:userInfo];
+			descriptionKey:@"json-parsing-error" userInfo:userInfo];
 	}
 	else {
 		*error = [self _checkPortalException:json];
