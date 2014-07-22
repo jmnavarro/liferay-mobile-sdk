@@ -12,17 +12,4 @@
  * details.
  */
 
-#import <Foundation/Foundation.h>
-
-@interface NSBundle (Localization)
-
-+ (NSBundle *)localizedBundle;
-
-+ (void)registerTranslationTable:(NSString *)translationTableName;
-+ (void)unregisterTranslationTable:(NSString *)translationTableName;
-
-- (BOOL)existsStringForKey:(NSString *)key;
-
-- (NSString *)localizedStringForKey:(NSString *)key;
-
-@end
+"com.liferay.portal.NoSuchUserException" = "The user couldn't be found in the server.";

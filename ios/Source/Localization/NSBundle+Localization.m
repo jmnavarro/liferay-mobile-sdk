@@ -7,8 +7,13 @@
 //
 
 #import "NSBundle+Localization.h"
+#import "LRSession.h"
 
-NSString *const EMPTY_TRANSLATION = @"empty";
+NSString *const TRANSLATION_TABLE_USER_MESSAGES = @"UserMessages";
+NSString *const TRANSLATION_TABLE_EXCEPTION_MESSAGES = @"ExceptionMessages";
+NSString *const TRANSLATION_TABLE_CUSTOM_MESSAGES = @"CustomMessages";
+
+static NSMutableArray *_translationTables = nil;
 
 @implementation NSBundle (Localization)
 
@@ -33,6 +38,19 @@ NSString *const EMPTY_TRANSLATION = @"empty";
 	return langPath ? [NSBundle bundleWithPath:langPath] : nil;
 }
 
++ (void)registerTranslationTable:(NSString *)translationTableName {
+	if (!_translationTables) {
+		_translationTables = [[NSMutableArray alloc] initWithCapacity:4];
+	}
+
+	[_translationTables addObject:translationTableName];
+}
+
++ (void)unregisterTranslationTable:(NSString *)translationTableName {
+	[_translationTables removeObject:translationTableName];
+}
+
+
 + (NSBundle *)_sharedBundle {
     static NSBundle *classBundle  = nil;
     static NSBundle *sdkBundle = nil;
@@ -45,23 +63,23 @@ NSString *const EMPTY_TRANSLATION = @"empty";
 			[classBundle pathForResource:@"Liferay-iOS-SDK" ofType:@"bundle"];
 
         sdkBundle = [NSBundle bundleWithPath:bundlePath];
+
+		[self registerTranslationTable:TRANSLATION_TABLE_USER_MESSAGES];
+		[self registerTranslationTable:TRANSLATION_TABLE_EXCEPTION_MESSAGES];
+		[self registerTranslationTable:TRANSLATION_TABLE_CUSTOM_MESSAGES];
     });
 
 	return sdkBundle ?: classBundle;
 }
 
 - (BOOL)existsStringForKey:(NSString *)key {
-	NSString *localizedString = [self localizedStringForKey:key
-		value:EMPTY_TRANSLATION table:@"UserMessages"];
-
-	return (localizedString != EMPTY_TRANSLATION);
+	return ([self fetchStringForKey:key] != nil);
 }
 
 - (NSString *)localizedStringForKey:(NSString *)key {
-	NSString *localizedString = [self localizedStringForKey:key
-		value:EMPTY_TRANSLATION table:@"UserMessages"];
+	NSString *localizedString = [self fetchStringForKey:key];
 
-	if (localizedString == EMPTY_TRANSLATION) {
+	if (!localizedString) {
 		NSLog(@"WARNING: Couldn't be found translation key '%@'", key);
 		localizedString = key;
 	}
@@ -69,5 +87,19 @@ NSString *const EMPTY_TRANSLATION = @"empty";
 	return localizedString;
 }
 
+- (NSString *)fetchStringForKey:(NSString *)key {
+	static NSString *const EMPTY_TRANSLATION = @"empty";
+
+	for (NSString *tableName in _translationTables) {
+		NSString *localizedString = [self localizedStringForKey:key
+			value:EMPTY_TRANSLATION table:tableName];
+
+		if (localizedString != EMPTY_TRANSLATION) {
+			return localizedString;
+		}
+	}
+
+	return nil;
+}
 
 @end
