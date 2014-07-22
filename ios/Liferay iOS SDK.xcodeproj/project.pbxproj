@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8837B96019741D9800410076 /* UnauthenticatedServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8837B95F19741D9800410076 /* UnauthenticatedServiceTest.m */; };
 		883F77731977DE990041E1CB /* ResponseParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 883F77721977DE990041E1CB /* ResponseParserTest.m */; };
+		88C0C867197E7BC00068ACA5 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0C866197E7BC00068ACA5 /* NSBundle+Localization.m */; };
+		88C0C868197E7BC00068ACA5 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0C866197E7BC00068ACA5 /* NSBundle+Localization.m */; };
 		88C0C86D197E7BCC0068ACA5 /* UserMessages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C0C86A197E7BCC0068ACA5 /* UserMessages.strings */; };
 		8F7B829DA4104FEDB903590F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 792F68BAE4DF41869F1F1580 /* libPods.a */; };
 		CC03FB6F18ED7BA000F3F16C /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC03FB6C18ED7BA000F3F16C /* settings.plist */; };
@@ -169,6 +171,8 @@
 		792F68BAE4DF41869F1F1580 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8837B95F19741D9800410076 /* UnauthenticatedServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnauthenticatedServiceTest.m; sourceTree = "<group>"; };
 		883F77721977DE990041E1CB /* ResponseParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseParserTest.m; sourceTree = "<group>"; };
+		88C0C865197E7BC00068ACA5 /* NSBundle+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Localization.h"; path = "Source/Localization/NSBundle+Localization.h"; sourceTree = SOURCE_ROOT; };
+		88C0C866197E7BC00068ACA5 /* NSBundle+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Localization.m"; path = "Source/Localization/NSBundle+Localization.m"; sourceTree = SOURCE_ROOT; };
 		88C0C86B197E7BCC0068ACA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UserMessages.strings; sourceTree = "<group>"; };
 		88C0C86C197E7BCC0068ACA5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/UserMessages.strings; sourceTree = "<group>"; };
 		88FD86C519742C4700E4EEF9 /* GroupServiceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupServiceTest.h; sourceTree = "<group>"; };
@@ -1732,6 +1736,7 @@
 				CC03FCAC18ED7DCD00F3F16C /* LRAnnouncementsFlagService_v62.m in Sources */,
 				CC03FCB418ED7DCD00F3F16C /* LRBlogsEntryService_v62.m in Sources */,
 				CC03FD2718EDA05B00F3F16C /* GroupServiceTest.m in Sources */,
+				88C0C868197E7BC00068ACA5 /* NSBundle+Localization.m in Sources */,
 				CC03FCE818ED7DCD00F3F16C /* LRPollsVoteService_v62.m in Sources */,
 				CC03FCC418ED7DCD00F3F16C /* LRDLFolderService_v62.m in Sources */,
 				CC03FCB918ED7DCD00F3F16C /* LRContactService_v62.m in Sources */,
@@ -1851,6 +1856,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C0C867197E7BC00068ACA5 /* NSBundle+Localization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
